@@ -1,0 +1,13 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Curriculum Vitae - Samuel Galvão Elias",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./src/output.css --minify",
+    "watch-css": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
+

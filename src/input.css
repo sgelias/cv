@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@page {
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+  margin-left: 0.5cm;
+  margin-right: 0.5cm;
+  size: A4 portrait;
+}
+
+@page {
+  @bottom-center {
+    content: "Page " counter(page);
+  }
+}
+
+@media print {
+  /* Forçar modo claro na impressão */
+  body {
+    margin: 0;
+    padding: 0;
+    background: white !important;
+    color: #000 !important;
+  }
+  
+  /* Garantir que o conteúdo seja impresso corretamente */
+  #content {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  /* Melhorar qualidade de impressão */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  /* Forçar cores claras na impressão */
+  .dark {
+    background: white !important;
+    color: #000 !important;
+  }
+  
+  h1, h2, h3 {
+    color: #3b82f6 !important;
+  }
+  
+  a {
+    color: #6366f1 !important;
+  }
+}
+
+@layer base {
+  a {
+    @apply text-indigo-500 underline;
+  }
+}

@@ -1,0 +1,12 @@
+@page {
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+  margin-left: 0.5cm;
+  margin-right: 0.5cm;
+}
+
+@page {
+  @bottom-center {
+    content: "Page " counter(page);
+  }
+}
