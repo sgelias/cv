@@ -2,8 +2,7 @@
 title: "Samuel Galvão Elias – Curriculum Vitae"
 ---
 
-<style>@media print { h1 { display: none; } }</style>
-<h1>Samuel Galvão Elias – Curriculum Vitae</h1>
+<h1><style>@media print { h1 { display: none; } }</style>Samuel Galvão Elias – Curriculum Vitae</h1>
 
 <table style="width: 100%; border-collapse: separate; border-spacing: 16px 0;">
   <tbody>
