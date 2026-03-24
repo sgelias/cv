@@ -1,7 +1,1 @@
-In my thesis entitled "Fungi in Cerrado plants: an integrative approach", I
-developed two bioinformatics tools called "GeneConnector" and "Classeq". The
-first designed to connect genetic information using metadata intrinsic to
-GenBank information. The second, "Classeq", is a biological sequence classifier
-that uses pre-built phylogenies to position DNA sequences, with high
-performance, relatively low computational cost and low error rate, using an
-environment friendly to machine connections via API.
+The doctoral thesis, entitled "Fungi in Cerrado plants: an integrative approach", resulted in the development of two bioinformatics tools: "GeneConnector" and "Classeq". The former was designed to consolidate genetic information by leveraging metadata intrinsic to GenBank records. The latter, "Classeq", is a biological sequence classifier that employs pre-built phylogenies to position DNA sequences with high performance, reduced computational cost and low error rate, through an API-accessible environment designed for machine integration.

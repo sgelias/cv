@@ -1,7 +1,1 @@
-At this stage of my academic training, I acquired my strongest knowledge in
-pathogen-host interaction biology, using bacteria/non-human animal models in the
-spectrum of neurodegenerative diseases, such as meningitis. At this time I
-acquired my knowledge in biostatistics, n-dimensional modeling and had the
-opportunity to participate in research with neuroscientists Tatiane Barichello
-and João Quevedo, both of international renown in their respective fields of
-knowledge.
+Undergraduate training provided a solid foundation in pathogen–host interaction biology, with research conducted using bacteria and non-human animal models in the context of neurodegenerative diseases, including meningitis. This period also established core competencies in biostatistics and n-dimensional modelling, alongside the opportunity to collaborate with neuroscientists Tatiane Barichello and João Quevedo, both of international standing in their respective fields.

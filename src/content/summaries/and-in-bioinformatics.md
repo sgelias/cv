@@ -1,23 +1,5 @@
-I am a self-taught bioinformatician, with over ten years of experience in
-analyzing biological data using biostatistics and bioinformatics techniques. In
-recent years I have focused my attention and energy on building high-performance
-and/or high-availability bioinformatics tools, adapted to the highly connected
-web environment.
+A self-taught bioinformatician with over ten years of experience in biological data analysis through biostatistics and bioinformatics methodologies. In recent years, professional focus has shifted towards the design and development of high-performance and high-availability bioinformatics tools tailored for modern, highly connected web environments.
 
-Today, I work professionally in modeling, architecture, development and
-coordination of multidisciplinary technology teams to create high-performance
-and high-availability biological data processing environments. I have expertise
-in building solutions for parallel processing (a basic requirement for
-bioinformatics analyses at industrial scale), concurrent processing (a
-requirement for analyses in distributed environments) and automation of large
-processes.
+Currently, core activities encompass the modeling, architecture, development and coordination of multidisciplinary technology teams dedicated to building high-performance biological data processing environments. Areas of technical expertise include solutions for parallel processing — a fundamental requirement for bioinformatics analyses at industrial scale — concurrent processing for distributed computing environments, and the automation of large-scale pipelines.
 
-I also work on building native internet tools and public domain tools (see
-section [Public Tools](#public-tools)), such as Mycelium API Gateway and
-Mycelium WebApp, a pair of solutions focused on distributed access control of
-complex API environments. I can also mention data validation tools such as
-Blutils CLI and Blutils UI, a pair focused on biological sequence analysis and,
-finally, Classeq, a biological sequence classifier for post-phylogeny. All these
-tools, among others, are made available free of charge and open source and can
-be accessed and especially audited through the official GitHub of the Lepista
-Bioinformatics project.
+Additional contributions include the development of web-native and public domain tools (see section [Public Tools](#public-tools)), among them Mycelium API Gateway and Mycelium WebApp, a pair of solutions focused on distributed access control for complex API environments; Blutils CLI and Blutils UI, a pair of tools dedicated to biological sequence analysis; and Classeq, a biological sequence classifier for post-phylogenetic placement. All aforementioned tools are made freely available as open-source projects, accessible and auditable through the official GitHub of the Lepista Bioinformatics organisation.

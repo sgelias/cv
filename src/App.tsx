@@ -77,14 +77,6 @@ export default function App() {
         <hr className="hidden print:block my-5 border-neutral-300" />
 
         <Card>
-          <Titration />
-        </Card>
-
-        <Card>
-          <Publications />
-        </Card>
-
-        <Card>
           <PublicTools />
         </Card>
 
@@ -92,6 +84,13 @@ export default function App() {
           <PrivateSoftwares />
         </Card>
 
+        <Card>
+          <Titration />
+        </Card>
+
+        <Card>
+          <Publications />
+        </Card>
       </div>
     </div>
   )

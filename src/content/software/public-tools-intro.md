@@ -1,5 +1,1 @@
-For the past three years I have been working independently on the development of
-bioinformatics and web-native tools, in the form of open-source and free
-solutions. The goal is to contribute to the scientific community and society in
-general, with tools that deliver real impact to scientists and non-scientists
-alike. Among the tools developed are:
+Over the past three years, independent work has been dedicated to the development of bioinformatics and web-native tools released as free and open-source solutions. The overarching objective is to deliver meaningful contributions to the scientific community and to society at large, through tools of practical relevance to both specialist and non-specialist users. The principal tools developed include:

@@ -1,3 +1,1 @@
-In this section, I list my scientific contributions related to fields of
-knowledge in Health Sciences, with publications made between the years 2013 and
-2014.
+The following entries comprise scientific contributions within the field of Health Sciences, covering publications from 2013 to 2014.

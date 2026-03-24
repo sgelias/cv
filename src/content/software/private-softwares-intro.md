@@ -1,14 +1,3 @@
-Currently, my main focus is on developing bioinformatics tools for the
-Agrobiotechnology area, with the development of tools for genomic and
-metagenomic data analysis, as well as tools for biological sequence data
-analysis. Additionally, I have been working voraciously on building interfaces
-and web-friendly high-availability tools used in delivering software solutions
-for Brazilian agribusiness.
+Current professional focus is concentrated on the development of bioinformatics tools for the Agrobiotechnology sector, encompassing solutions for genomic and metagenomic data analysis as well as biological sequence processing. Parallel efforts have been directed towards the design and delivery of web-native, high-availability interfaces supporting software solutions for Brazilian agribusiness.
 
-Below are listed the software registered between the years 2022 and 2023. These
-range from software/pipelines for processing metagenomic data to
-high-availability web tools used in delivering software solutions for Brazilian
-agribusiness. In addition to the listed software, I am working on registering
-eleven newly developed software to be registered for the year 2026, which will
-soon be made available for publicly at the Brazilian Patent and Trademark Office
-(INPI).
+The registrations listed below were formalised between 2022 and 2023, spanning metagenomic processing pipelines through to high-availability web applications for agribusiness. In addition to the entries listed, eleven newly developed software titles are currently in the process of registration, to be submitted to the Brazilian Patent and Trademark Office (INPI) by 2026.

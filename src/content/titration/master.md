@@ -1,8 +1,1 @@
-In the development of my master's dissertation, I conducted a biogeographic
-study on the fungus Phellinotus piptadeniae, a fungus widely distributed in the
-neotropical region, related to legume species. On that occasion we used
-environmental modeling tools, taking advantage of the fungus/host relationship,
-to identify the probable geographic distribution of the fungus. In addition, we
-identified a possible species complex within Phellinotus, presenting a diffuse
-evolutionary history, shaped by climate fluctuations and ecological
-relationships.
+The master's dissertation comprised a biogeographic study of the fungus *Phellinotus piptadeniae*, a species widely distributed across the neotropical region in association with legume hosts. Environmental modelling tools were applied, drawing on the fungus–host relationship, to infer the probable geographic distribution of the species. The study further identified a putative species complex within *Phellinotus*, characterised by a diffuse evolutionary history shaped by climatic fluctuations and ecological interactions.
