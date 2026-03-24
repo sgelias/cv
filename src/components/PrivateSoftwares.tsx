@@ -1,9 +1,11 @@
 import MarkdownBlock from './MarkdownBlock.tsx'
-import introContent from '../content/software/private-softwares-intro.md?raw'
+import { useLocale } from '../i18n/index.tsx'
 
-const tdBase = "border-x border-neutral-300 dark:border-neutral-600 px-4 py-2 align-top text-left"
-const trBase = "border-b border-neutral-300 dark:border-neutral-600"
-const thBase = "border-x border-neutral-300 dark:border-neutral-600 px-4 py-2 text-left align-top"
+import introEn from '../content/en-us/software/private-softwares-intro.md?raw'
+import introPt from '../content/pt-br/software/private-softwares-intro.md?raw'
+
+const tdBase = "border-x border-neutral-300 dark:border-neutral-600 px-4 py-2 align-top text-left whitespace-nowrap"
+const thBase = "border-x border-neutral-300 dark:border-neutral-600 px-4 py-2 text-left align-top whitespace-nowrap bg-zinc-600 text-white dark:bg-zinc-700 font-semibold uppercase text-sm tracking-wide"
 
 interface Software {
   year: string
@@ -30,32 +32,37 @@ const softwares: Software[] = [
 ]
 
 export default function PrivateSoftwares() {
+  const { t, locale } = useLocale()
+  const introContent = locale === 'pt-br' ? introPt : introEn
+
   return (
-    <section className="my-5 print:break-before-page text-justify">
-      <h2>Private Software Registrations</h2>
+    <section className="my-5 print:break-before-page">
+      <h2>{t.privateSoftwares.title}</h2>
 
       <MarkdownBlock content={introContent} className="mt-4 [&_p]:mt-4" />
 
-      <table className="w-full border-collapse border border-neutral-300 dark:border-neutral-600 mt-4">
-        <thead>
-          <tr className="border-b-2 border-neutral-300 dark:border-neutral-600">
-            <th className={thBase}>Year</th>
-            <th className={thBase}>Title</th>
-            <th className={thBase}>Kind (Language)</th>
-            <th className={thBase}>Application</th>
-          </tr>
-        </thead>
-        <tbody>
-          {softwares.map((sw, i) => (
-            <tr key={i} className={trBase}>
-              <td className={tdBase}>{sw.year}</td>
-              <td className={tdBase}>{sw.title}</td>
-              <td className={tdBase}>{sw.kind}</td>
-              <td className={tdBase}>{sw.application}</td>
+      <div className="overflow-x-auto">
+        <table className="w-full border-collapse border border-neutral-300 dark:border-neutral-600 mt-4">
+          <thead>
+            <tr>
+              <th className={thBase}>{t.privateSoftwares.year}</th>
+              <th className={thBase}>{t.privateSoftwares.titleCol}</th>
+              <th className={thBase}>{t.privateSoftwares.kind}</th>
+              <th className={thBase}>{t.privateSoftwares.application}</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {softwares.map((sw, i) => (
+              <tr key={i} className={`border-b border-neutral-300 dark:border-neutral-600 ${i % 2 === 0 ? 'bg-zinc-100 dark:bg-zinc-700/40' : ''}`}>
+                <td className={tdBase}>{sw.year}</td>
+                <td className={tdBase}>{sw.title}</td>
+                <td className={tdBase}>{sw.kind}</td>
+                <td className={tdBase}>{sw.application}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </section>
   )
 }

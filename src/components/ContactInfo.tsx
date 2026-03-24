@@ -1,3 +1,5 @@
+import { useLocale } from '../i18n/index.tsx'
+
 const tdIcon  = "pr-2 py-0.5 align-middle w-5"
 const tdLabel = "pr-6 py-0.5 text-sm font-semibold text-zinc-500 whitespace-nowrap align-middle"
 const tdValue = "py-0.5 text-sm align-middle"
@@ -5,10 +7,12 @@ const tdValue = "py-0.5 text-sm align-middle"
 const base = import.meta.env.BASE_URL
 
 export default function ContactInfo() {
+  const { t } = useLocale()
+
   return (
     <>
       {/* Web: grid 3 colunas */}
-      <div className="grid grid-cols-3 gap-y-1 gap-x-4 w-full mt-3 print:hidden">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-1 gap-x-4 w-full mt-3 print:hidden">
         <div className="flex items-center">
           <a href="mailto:sgelias@outlook.com" className="inline-flex items-center gap-1">
             <img src={`${base}outlook-favicon.ico`} alt="Email Outlook" className="w-4 h-4" />
@@ -39,14 +43,14 @@ export default function ContactInfo() {
         <div className="flex items-center">
           <a href="https://github.com/LepistaBioinformatics" className="inline-flex items-center gap-1">
             <img src={`${base}github-lepista.png`} alt="Organization GitHub" className="w-5 h-5 rounded-full mr-1" />
-            Organization GitHub
+            {t.contact.orgGithub}
           </a>
         </div>
 
         <div className="flex items-center">
           <a href="https://github.com/sgelias" className="inline-flex items-center gap-1">
             <img src={`${base}github-sgelias.png`} alt="Personal GitHub" className="w-5 h-5 rounded-full mr-1" />
-            Personal GitHub
+            {t.contact.personalGithub}
           </a>
         </div>
 

@@ -1,0 +1,1 @@
+A trajetória científica aqui apresentada é definida por duas grandes fases profissionais: um período inicial dedicado à pesquisa em Ciências da Saúde, seguido de uma transição e posterior consolidação nas Ciências da Vida e na Bioinformática. As contribuições listadas nas seções abaixo estão organizadas por área do conhecimento e apresentadas em ordem cronológica inversa.

@@ -1,7 +1,12 @@
 import MarkdownBlock from './MarkdownBlock.tsx'
-import introContent from '../content/publications/intro.md?raw'
-import lifeSciencesIntro from '../content/publications/life-sciences-intro.md?raw'
-import healthSciencesIntro from '../content/publications/health-sciences-intro.md?raw'
+import { useLocale } from '../i18n/index.tsx'
+
+import introEn from '../content/en-us/publications/intro.md?raw'
+import introPt from '../content/pt-br/publications/intro.md?raw'
+import lifeSciencesIntroEn from '../content/en-us/publications/life-sciences-intro.md?raw'
+import lifeSciencesIntroPt from '../content/pt-br/publications/life-sciences-intro.md?raw'
+import healthSciencesIntroEn from '../content/en-us/publications/health-sciences-intro.md?raw'
+import healthSciencesIntroPt from '../content/pt-br/publications/health-sciences-intro.md?raw'
 
 const lifeSciences: string[] = [
   '2024: GeneConnector: Unlocking the full potential of Genbank metadata; ELIAS, S. GALVAO ; GUTERRES, D. CERVIERI ; BARRETO, R. WEINGART ; VALE, H. MARIO MARTINS DO; IEEE Latin America Transactions, vol. 22, no. 2, pp. 99-105, Feb. 2024, doi: 10.1109/TLA.2024.10412034.',
@@ -9,7 +14,7 @@ const lifeSciences: string[] = [
   '2022: Reinstatement and phylogenetic allocation of the palm rust genus Cerradoa in the Pucciniaceae, and establishment of Pseudocerradoa, gen. nov; EBINGHAUS, MALTE ; DOS SANTOS, MARIA D. M. ; SOUZA, ERICA S. C. ; BARNES, CHARLES W. ; NDACNOU, MIRAINE K. ; VÉLEZ-ZAMBRANO, SÉRGIO M. ; GALVÃO-ELIAS, SAMUEL ; BEGEROW, DOMINIK ; BARRETO, R. W. ; Dianese, José C.; MYCOLOGIA, v. 115, p. 1-19, 2022',
   '2021: Phytophthora theobromicola sp. nov.: A New Species Causing Black Pod Disease on Cacao in Brazil; DECLOQUEMENT, J. ; RAMOS-SOBRINHO, R. ; ELIAS, S. G. ; BRITTO, D. S. ; PUIG, A. S. ; REIS, A. ; DA SILVA, R. A. F. ; HONORATO-JÚNIOR, J. ; LUZ, E. D. M. N. ; PINHO, D. B. ; MARELLI, J.-P.; Frontiers in Microbiology, Volume 12, 2021. DOI: 10.3389/fmicb.2021.537399. ISSN: 1664-302X.',
   '2020: Studies on the biogeography of Phellinotus piptadeniae (Hymenochaetales, Basidiomycota): Expanding the knowledge on its distribution and clarifying hosts relationships; ELIAS, S. G. ; SALVADOR-MONTOYA, C. A. ; COSTA-REZENDE, D. H. ; GUTERRES, D. C. ; FERNANDES, M. ; OLKOSKI, D. ; KLABUNDE, G. H. F. ; DRECHSLER-SANTOS, E. R.; Fungal Ecology, Volume 45, 2020, 100912, ISSN 1754-5048.',
-  '2020: Moniliophthora perniciosa, the mushroom causing witches\' broom disease of cacao: Insights into its taxonomy, ecology and host range in Brazil; LISBOA, D. O. ; EVANS, H. C. ; ARAÚJO, J. P. M. ; ELIAS, S. G. ; BARRETO, R. W.; Fungal Biology, Volume 124, Issue 12, 2020, Pages 983-1003, ISSN 1878-6146.',
+  "2020: Moniliophthora perniciosa, the mushroom causing witches's broom disease of cacao: Insights into its taxonomy, ecology and host range in Brazil; LISBOA, D. O. ; EVANS, H. C. ; ARAÚJO, J. P. M. ; ELIAS, S. G. ; BARRETO, R. W.; Fungal Biology, Volume 124, Issue 12, 2020, Pages 983-1003, ISSN 1878-6146.",
   '2020: A new section, Lactifluus section Neotropicus (Russulaceae), and two new Lactifluus species from the Atlantic Forest, Brazil; DUQUE BARBOSA, J. A. ; DELGAT, L. ; GALVÃO ELIAS, S. ; VERBEKEN, A. ; NEVES, M. A. ; CARVALHO, A. ALVES DE; Systematics and Biodiversity, 18(4), 347–361.',
   '2019: Phaeochorellaceae, Diaporthales: a new fungal family and a re-appraisal of Phaeochorella species.; GUTERRES, D. C. ; ELIAS, S. G. ; SANTOS, M. D. M. ; SOUZA, B. C. P. ; ALMEIDA, C. P. ; PINHO, D. B. ; MILLER, R. N. G. ; DIANESE, J. C.; MYCOLOGIA, v. 111, p. 1-16, 2019',
   '2019: Phylogenetic Relationships of Phaeochorella Parinarii and Recognition of a New Family, Phaeochorellaceae (Diaporthales); GUTERRES, D. C. ; GALVÃO-ELIAS, S. ; SANTOS, M. D. M. ; SOUZA, B. C. P. ; ALMEIDA, C. P. ; PINHO, D. B. ; MILLER, R. N. G. ; DIANESE, J. C.; Mycologia 111, no. 4 (2019): 660–75.',
@@ -27,13 +32,19 @@ const healthSciences: string[] = [
 ]
 
 export default function Publications() {
+  const { t, locale } = useLocale()
+
+  const introContent = locale === 'pt-br' ? introPt : introEn
+  const lifeSciencesIntro = locale === 'pt-br' ? lifeSciencesIntroPt : lifeSciencesIntroEn
+  const healthSciencesIntro = locale === 'pt-br' ? healthSciencesIntroPt : healthSciencesIntroEn
+
   return (
-    <section className="my-5 print:break-before-page text-justify space-y-6">
-      <h2 id="publications">Publications in Journals</h2>
+    <section className="my-5 print:break-before-page space-y-6">
+      <h2 id="publications">{t.publications.title}</h2>
 
       <MarkdownBlock content={introContent} className="my-6 [&_p]:my-2" />
 
-      <h3 id="life-sciences">Life Sciences and Bioinformatics</h3>
+      <h3 id="life-sciences">{t.publications.lifeSciences}</h3>
 
       <MarkdownBlock content={lifeSciencesIntro} className="my-6 [&_p]:my-2" />
 
@@ -43,7 +54,7 @@ export default function Publications() {
         ))}
       </ol>
 
-      <h3 id="health-sciences">Health Sciences</h3>
+      <h3 id="health-sciences">{t.publications.healthSciences}</h3>
 
       <MarkdownBlock content={healthSciencesIntro} className="my-6 [&_p]:my-2" />
 

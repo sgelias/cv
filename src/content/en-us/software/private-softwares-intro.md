@@ -1,0 +1,3 @@
+Current professional focus is concentrated on the development of bioinformatics tools for the Agrobiotechnology sector, encompassing solutions for genomic and metagenomic data analysis as well as biological sequence processing. Parallel efforts have been directed towards the design and delivery of web-native, high-availability interfaces supporting software solutions for Brazilian agribusiness.
+
+The registrations listed below were formalised between 2022 and 2023, spanning metagenomic processing pipelines through to high-availability web applications for agribusiness. In addition to the entries listed, eleven newly developed software titles are currently in the process of registration, to be submitted to the Brazilian Patent and Trademark Office (INPI) by 2026.

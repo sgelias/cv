@@ -1,0 +1,1 @@
+The scientific trajectory presented herein is defined by two major professional phases: an initial period dedicated to Health Sciences research, followed by a transition and subsequent consolidation in Life Sciences and Bioinformatics. The contributions listed in the sections below are organised by field of knowledge and presented in reverse chronological order.
