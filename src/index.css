@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@page {
+  margin-top: 1.0cm;
+  margin-bottom: 1.0cm;
+  margin-left: 1.0cm;
+  margin-right: 1.0cm;
+  size: A4 portrait;
+}
+
+@page {
+  @bottom-center {
+    content: "Page " counter(page);
+    font-size: 0.875rem;
+    font-family: inherit;
+  }
+}
+
+@media print {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: white !important;
+    color: #3f3f46 !important;
+  }
+
+  #content {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  h1, h2, h3, h4 {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    color: #3b82f6 !important;
+  }
+
+  a {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    color: #6366f1 !important;
+  }
+
+  .print\:break-before-page {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  hr {
+    border: none !important;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  table, th, td {
+    border-color: #d4d4d4 !important;
+  }
+}
+
+@layer base {
+  a {
+    @apply text-indigo-500 underline;
+  }
+}
+
+/* Dark mode — fallback CSS para garantir que dark mode funcione
+   independente do scanning do Tailwind */
+html.dark body {
+  background-color: rgb(39 39 42);   /* zinc-800 */
+  color: rgb(228 228 231);           /* zinc-200 */
+}
+
+html.dark #app {
+  background-color: rgb(39 39 42);   /* zinc-800 */
+  color: rgb(228 228 231);           /* zinc-200 */
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4 {
+  color: rgb(96 165 250);            /* blue-400 */
+}
+
+html.dark a {
+  color: rgb(129 140 248);           /* indigo-400 */
+}
+
+html.dark table,
+html.dark th,
+html.dark td,
+html.dark tr,
+html.dark hr {
+  border-color: rgb(82 82 82);       /* neutral-600 */
+}
+
+html.dark button {
+  color: rgb(96 165 250);            /* blue-400 */
+}
