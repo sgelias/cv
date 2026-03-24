@@ -1,32 +1,34 @@
 # Curriculum Vitae — Samuel Galvão Elias
 
-CV pessoal construído com React, TypeScript, Tailwind CSS e react-markdown. Suporta modo web (com cards e dark mode) e modo impressão (layout limpo para PDF/A4).
+Personal CV built with React, TypeScript, Tailwind CSS and react-markdown.
+Supports a web mode (with cards and dark mode) and a print mode (clean layout
+for PDF/A4).
 
 ## Stack
 
 - **React 18** + **TypeScript**
-- **Vite** — bundler e dev server
-- **Tailwind CSS v3** — estilização utilitária
-- **react-markdown** + **remark-gfm** — renderização dos blocos de texto em Markdown
-- **GitHub Actions** — deploy automático para GitHub Pages
+- **Vite** — bundler and dev server
+- **Tailwind CSS v3** — utility-first styling
+- **react-markdown** + **remark-gfm** — Markdown rendering for text blocks
+- **GitHub Actions** — automated deployment to GitHub Pages
 
-## Estrutura
+## Structure
 
 ```
 src/
-├── App.tsx                  # Layout principal, dark mode, cards
+├── App.tsx                  # Main layout, dark mode, cards
 ├── main.tsx                 # Entry point
-├── index.css                # Tailwind directives + estilos globais + dark mode CSS
+├── index.css                # Tailwind directives + global styles + dark mode CSS
 ├── vite-env.d.ts
 ├── components/
-│   ├── Header.tsx           # Título, toggle de tema e botão PDF
-│   ├── ContactInfo.tsx      # Grid web / data table impressão
+│   ├── Header.tsx           # Title, theme toggle and PDF button
+│   ├── ContactInfo.tsx      # Web grid / print data table
 │   ├── Summaries.tsx        # In Microbiology + And in Bioinformatics
-│   ├── Titration.tsx        # Formação acadêmica
-│   ├── Publications.tsx     # Publicações científicas
-│   ├── PublicTools.tsx      # Softwares públicos
-│   ├── PrivateSoftwares.tsx # Registros de software
-│   └── MarkdownBlock.tsx    # Wrapper react-markdown
+│   ├── Titration.tsx        # Academic qualifications
+│   ├── Publications.tsx     # Scientific publications
+│   ├── PublicTools.tsx      # Public domain software
+│   ├── PrivateSoftwares.tsx # Software registrations
+│   └── MarkdownBlock.tsx    # react-markdown wrapper
 └── content/
     ├── summaries/
     │   ├── in-microbiology.md
@@ -45,7 +47,7 @@ src/
         └── private-softwares-intro.md
 ```
 
-## Desenvolvimento
+## Development
 
 ```bash
 yarn install
@@ -55,18 +57,21 @@ yarn dev
 ## Build
 
 ```bash
-yarn build     # gera dist/
-yarn preview   # serve o build localmente
+yarn build     # outputs to dist/
+yarn preview   # serves the build locally
 ```
 
 ## Deploy
 
-O deploy é feito automaticamente via GitHub Actions a cada push na branch `main`.
+Deployment is handled automatically via GitHub Actions on every push to the
+`main` branch.
 
-Para ativar: **Settings → Pages → Source: GitHub Actions**.
+To enable: **Settings → Pages → Source: GitHub Actions**.
 
-A URL final será `https://<usuario>.github.io/<repositório>/`.
+The final URL will be `https://<username>.github.io/<repository>/`.
 
 ## PDF
 
-No navegador, clique em **PDF** no canto superior direito. O documento é renderizado em modo claro (independente do tema atual) e formatado para A4 via `@page` CSS.
+In the browser, click **PDF** in the top-right corner. The document is rendered
+in light mode regardless of the current theme, and formatted for A4 via `@page`
+CSS.
