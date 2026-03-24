@@ -26,9 +26,9 @@
     color: #3f3f46 !important;
   }
 
-  #content {
-    width: 100%;
-    max-width: 100%;
+  #app {
+    background: white !important;
+    min-height: 0 !important;
   }
 
   h1, h2, h3, h4 {
@@ -48,6 +48,12 @@
     break-before: page;
   }
 
+  /* Impede quebra de página entre o título e o conteúdo imediato */
+  h2 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
   hr {
     border: none !important;
   }
@@ -59,7 +65,22 @@
   table, th, td {
     border-color: #d4d4d4 !important;
   }
+
+  /* Remove decoração dos cards no print */
+  .web-card {
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+  }
 }
+
+/* Scroll suave para links de âncora internos */
+html {
+  scroll-behavior: smooth;
+}
+
 
 @layer base {
   a {
@@ -67,27 +88,33 @@
   }
 }
 
-/* Dark mode — fallback CSS para garantir que dark mode funcione
-   independente do scanning do Tailwind */
+/* Dark mode — fallback CSS garantido independente do scan do Tailwind */
 html.dark body {
-  background-color: rgb(39 39 42);   /* zinc-800 */
-  color: rgb(228 228 231);           /* zinc-200 */
+  background-color: rgb(24 24 27);       /* zinc-900 */
+  color: rgb(250 250 250);               /* zinc-50 */
 }
 
 html.dark #app {
-  background-color: rgb(39 39 42);   /* zinc-800 */
-  color: rgb(228 228 231);           /* zinc-200 */
+  background-color: rgb(24 24 27);       /* zinc-900 */
+  color: rgb(250 250 250);               /* zinc-50 */
+}
+
+/* Cards: zinc-800 com 50% de opacidade sobre o fundo zinc-900 */
+html.dark .web-card {
+  background-color: rgb(39 39 42 / 0.5); /* zinc-800/50 */
+  border-color: rgb(63 63 70);           /* zinc-700 */
+  border-color: rgb(63 63 70);           /* zinc-700 */
 }
 
 html.dark h1,
 html.dark h2,
 html.dark h3,
 html.dark h4 {
-  color: rgb(96 165 250);            /* blue-400 */
+  color: rgb(96 165 250);                /* blue-400 */
 }
 
 html.dark a {
-  color: rgb(129 140 248);           /* indigo-400 */
+  color: rgb(129 140 248);               /* indigo-400 */
 }
 
 html.dark table,
@@ -95,9 +122,9 @@ html.dark th,
 html.dark td,
 html.dark tr,
 html.dark hr {
-  border-color: rgb(82 82 82);       /* neutral-600 */
+  border-color: rgb(63 63 70);           /* zinc-700 */
 }
 
 html.dark button {
-  color: rgb(96 165 250);            /* blue-400 */
+  color: rgb(96 165 250);                /* blue-400 */
 }

@@ -7,7 +7,7 @@ export default function Header({ isDark, onToggleTheme }: HeaderProps) {
   return (
     <section>
       <div className="text-blue-500 dark:text-blue-400 text-start text-3xl font-semibold my-5 border-b border-neutral-300 dark:border-neutral-600 px-1 uppercase flex justify-between items-center">
-        <h1>Samuel Galvão Elias – Curriculum Vitae</h1>
+        <h1>Samuel Galvão Elias – CV</h1>
         <div className="flex gap-2 items-center print:hidden">
           <button
             onClick={onToggleTheme}

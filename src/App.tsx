@@ -13,6 +13,14 @@ function getInitialTheme(): boolean {
   return window.matchMedia('(prefers-color-scheme: dark)').matches
 }
 
+function Card({ children, className = '' }: { children: React.ReactNode, className?: string }) {
+  return (
+    <div className={`web-card bg-white dark:bg-zinc-800/50 rounded-2xl border-2 border-zinc-200 dark:border-zinc-700 px-8 py-6 print:shadow-none print:border-none print:rounded-none print:px-0 print:py-0 print:bg-transparent ${className}`}>
+      {children}
+    </div>
+  )
+}
+
 export default function App() {
   const [isDark, setIsDark] = useState<boolean>(getInitialTheme)
 
@@ -49,25 +57,41 @@ export default function App() {
   }, [isDark])
 
   return (
-    <div id="app" className="m-0 px-6 my-6 text-zinc-700 dark:text-zinc-200 bg-white dark:bg-zinc-800 transition-colors duration-200 [&_h2]:text-blue-500 dark:[&_h2]:text-blue-400 [&_h2]:font-semibold [&_h2]:uppercase [&_h2]:text-2xl [&_h3]:text-blue-500 dark:[&_h3]:text-blue-400 [&_h3]:font-semibold [&_h3]:uppercase [&_h3]:text-xl [&_h3]:my-6 [&_h4]:text-blue-500 dark:[&_h4]:text-blue-400 [&_h4]:font-semibold [&_h4]:uppercase [&_h4]:text-lg [&_h4]:my-6 [&_a]:text-indigo-500 dark:[&_a]:text-indigo-400 [&_a]:underline">
-      <div id="content" className="max-w-5xl mx-auto">
-        <Header isDark={isDark} onToggleTheme={() => setIsDark(d => !d)} />
+    <div
+      id="app"
+      className="min-h-screen bg-zinc-50 dark:bg-zinc-900 transition-colors duration-200 print:bg-white print:min-h-0 [&_h2]:text-blue-500 [&_h2]:font-semibold [&_h2]:uppercase [&_h2]:text-2xl [&_h3]:text-blue-500 [&_h3]:font-semibold [&_h3]:uppercase [&_h3]:text-xl [&_h3]:my-6 [&_h4]:text-blue-500 [&_h4]:font-semibold [&_h4]:uppercase [&_h4]:text-lg [&_h4]:my-6 [&_a]:text-indigo-500 [&_a]:underline"
+    >
+      <div className="max-w-3xl mx-auto py-8 px-4 space-y-12 text-zinc-800 dark:text-zinc-50 print:max-w-none print:py-0 print:px-6 print:space-y-0 print:text-zinc-700">
 
-        <ContactInfo />
+        <Card>
+          <Header isDark={isDark} onToggleTheme={() => setIsDark(d => !d)} />
+          <ContactInfo />
+        </Card>
 
-        <hr className="my-5 border-neutral-300 dark:border-neutral-600" />
+        <hr className="hidden print:block my-5 border-neutral-300" />
 
-        <Summaries />
+        <Card className="print:break-before-page">
+          <Summaries />
+        </Card>
 
-        <hr className="my-5 border-neutral-300 dark:border-neutral-600" />
+        <hr className="hidden print:block my-5 border-neutral-300" />
 
-        <Titration />
+        <Card>
+          <Titration />
+        </Card>
 
-        <Publications />
+        <Card>
+          <Publications />
+        </Card>
 
-        <PublicTools />
+        <Card>
+          <PublicTools />
+        </Card>
 
-        <PrivateSoftwares />
+        <Card>
+          <PrivateSoftwares />
+        </Card>
+
       </div>
     </div>
   )
