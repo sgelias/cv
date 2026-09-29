@@ -1,0 +1,459 @@
+/* Paleta herdada da versão React: títulos blue-500 e links indigo-500 (blue-400 / indigo-400 nos temas escuros) */
+:root {
+  --cv-heading: #3b82f6;
+  --cv-link: #6366f1;
+  --cv-muted: #71717a;
+  --cv-border: #d4d4d4;
+}
+
+html.coal,
+html.navy,
+html.ayu {
+  --cv-heading: #60a5fa;
+  --cv-link: #818cf8;
+  --cv-muted: #a1a1aa;
+  --cv-border: #3f3f46;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.content main {
+  max-width: 900px;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4 {
+  color: var(--cv-heading);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.content h1 {
+  font-size: 2em;
+  border-bottom: 1px solid var(--cv-border);
+  padding-bottom: 0.3em;
+}
+
+.content h2 {
+  font-size: 1.5em;
+}
+
+.content h3 {
+  font-size: 1.2em;
+}
+
+.content a,
+.content a:link,
+.content a:visited {
+  color: var(--cv-link);
+  text-decoration: underline;
+}
+
+.content a.header:link,
+.content a.header:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Cabeçalho do CV */
+.content h1.cv-name {
+  border-bottom: none;
+  margin: 0.5em 0 0;
+  padding: 0;
+  line-height: 1.1;
+}
+
+.content .cv-subtitle {
+  color: var(--cv-heading);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8em;
+  margin: 0 0 0.5em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--cv-border);
+}
+
+/* Links de contato: grid de 3 colunas (web e impressão) */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.35em 1em;
+  margin: 0.75em 0 1.5em;
+  font-size: 0.9em;
+}
+
+.contact-grid > a,
+.contact-grid > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  white-space: nowrap;
+}
+
+.contact-grid img {
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.contact-grid img.round {
+  width: 1.25em;
+  height: 1.25em;
+  border-radius: 9999px;
+}
+
+/* Resumos lado a lado na web */
+.summaries-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 1.5em;
+  font-size: 0.92em;
+}
+
+@media (max-width: 800px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .summaries-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Títulos de software: nomes próprios, sem caixa alta (aparecem no submenu lateral) */
+.content h2.sw,
+.content h3.sw,
+.content h4.sw,
+.content h3.pub {
+  text-transform: none;
+}
+
+/* Publicações: título como submenu, periódico + ano em pill, autores discretos */
+.content h3.pub {
+  font-size: 1.08em;
+  line-height: 1.35;
+  margin: 1.8em 0 0.4em;
+}
+
+.pub-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4em 0.7em;
+  margin: 0 0 0.3em;
+}
+
+.pub-meta p {
+  margin: 0;
+}
+
+.pub-meta p:first-child {
+  font-style: italic;
+  color: var(--cv-muted);
+  font-size: 0.92em;
+}
+
+.pub-meta p:last-child {
+  order: -1;
+  padding: 0.1em 0.7em;
+  border-radius: 9999px;
+  background: var(--cv-heading);
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.pub-authors p {
+  margin: 0 0 0.6em;
+  font-size: 0.88em;
+}
+
+.pub-authors strong {
+  color: var(--cv-heading);
+}
+
+.content h4.sw {
+  font-size: 1.05em;
+}
+
+/* Pills de links dos softwares; o ícone é escolhido pelo destino do link */
+.pills p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 0.6em 0 1.2em;
+}
+
+.content .pills a,
+.content .pills a:link,
+.content .pills a:visited {
+  --pill-icon: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574zM8.755 4.75l-.004 7.322a3.752 3.752 0 011.992-.572H14.5v-9h-3.495a2.25 2.25 0 00-2.25 2.25z'/></svg>");
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0.3em 0.85em;
+  border: 1px solid var(--cv-link);
+  border-radius: 9999px;
+  color: var(--cv-link);
+  font-size: 0.82em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.content .pills a::before {
+  content: "";
+  width: 1.1em;
+  height: 1.1em;
+  background-color: currentColor;
+  -webkit-mask: var(--pill-icon) center / contain no-repeat;
+  mask: var(--pill-icon) center / contain no-repeat;
+}
+
+.content .pills a:hover {
+  background: var(--cv-link);
+  color: #fff;
+}
+
+.content .pills a[href^="https://github.com/"]:not([href*="/blob/"]) {
+  --pill-icon: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z'/></svg>");
+  background: #24292f;
+  border-color: #24292f;
+  color: #fff;
+}
+
+.content .pills a[href^="https://github.com/"]:not([href*="/blob/"]):hover {
+  background: #fff;
+  color: #24292f;
+}
+
+.content .pills a[href^="https://crates.io/"] {
+  --pill-icon: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='m8.878.392 5.25 3.045c.54.314.872.89.872 1.514v6.098a1.75 1.75 0 01-.872 1.514l-5.25 3.045a1.75 1.75 0 01-1.756 0l-5.25-3.045A1.75 1.75 0 011 11.049V4.951c0-.624.332-1.201.872-1.514L7.122.392a1.75 1.75 0 011.756 0zM7.875 1.69l-4.63 2.685L8 7.133l4.755-2.758-4.63-2.685a.248.248 0 00-.25 0zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432zm6.25 8.271 4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432z'/></svg>");
+}
+
+.content .pills a[href="https://lepistabioinformatics.github.io/blutils-ui/"] {
+  --pill-icon: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M8 0a8 8 0 110 16A8 8 0 018 0zM5.78 8.75a9.64 9.64 0 001.363 4.177c.255.426.542.832.857 1.215.245-.296.551-.705.857-1.215A9.64 9.64 0 0010.22 8.75zm4.44-1.5a9.64 9.64 0 00-1.363-4.177c-.307-.51-.612-.919-.857-1.215a9.927 9.927 0 00-.857 1.215A9.64 9.64 0 005.78 7.25zm-5.944 1.5H1.543a6.507 6.507 0 004.666 5.5c-.123-.181-.24-.365-.352-.552-.715-1.192-1.437-2.874-1.581-4.948zm-2.733-1.5h2.733c.144-2.074.866-3.756 1.58-4.948.12-.197.237-.381.353-.552a6.507 6.507 0 00-4.666 5.5zm10.181 1.5c-.144 2.074-.866 3.756-1.58 4.948-.12.197-.237.381-.353.552a6.507 6.507 0 004.666-5.5zm2.733-1.5a6.507 6.507 0 00-4.666-5.5c.123.181.24.365.353.552.714 1.192 1.436 2.874 1.58 4.948z'/></svg>");
+}
+
+/* Titulação: linha do tempo com marcador, instituição e ano em pill */
+.timeline {
+  position: relative;
+  margin: 1.5em 0;
+  padding-left: 1.8em;
+  border-left: 2px solid var(--cv-border);
+}
+
+.degree {
+  position: relative;
+  margin-bottom: 2.2em;
+}
+
+.degree::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.8em - 7px);
+  top: 0.45em;
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  background: var(--cv-heading);
+  box-shadow: 0 0 0 4px var(--bg);
+}
+
+.content .degree h2 {
+  margin-top: 0;
+}
+
+.degree-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6em;
+  margin: 0.2em 0 0.9em;
+}
+
+.degree-meta p {
+  margin: 0;
+}
+
+.degree-meta p:first-child {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  font-weight: 600;
+  color: var(--cv-muted);
+}
+
+.degree-meta p:first-child::before {
+  content: "";
+  width: 1.15em;
+  height: 1.15em;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M7.693 1.066a.747.747 0 0 1 .614 0l7.25 3.25a.75.75 0 0 1 0 1.368L13 6.831v2.794c0 1.024-.81 1.749-1.66 2.173-.893.447-2.075.702-3.34.702-.278 0-.55-.012-.816-.036a.75.75 0 0 1 .133-1.494c.22.02.45.03.683.03 1.082 0 2.025-.221 2.67-.543.69-.345.83-.682.83-.832V7.503L8.307 8.934a.747.747 0 0 1-.614 0L4 7.28v1.663c.296.105.575.275.812.512.438.438.688 1.059.688 1.796v3a.75.75 0 0 1-.75.75h-3a.75.75 0 0 1-.75-.75v-3c0-.737.25-1.358.688-1.796.237-.237.516-.407.812-.512V6.606L.443 5.684a.75.75 0 0 1 0-1.368ZM2.583 5 8 7.428 13.416 5 8 2.572ZM2.5 11.25v2.25H4v-2.25c0-.388-.125-.611-.25-.735a.697.697 0 0 0-.5-.203.707.707 0 0 0-.5.203c-.125.124-.25.347-.25.735Z'/></svg>") center / contain no-repeat;
+  mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M7.693 1.066a.747.747 0 0 1 .614 0l7.25 3.25a.75.75 0 0 1 0 1.368L13 6.831v2.794c0 1.024-.81 1.749-1.66 2.173-.893.447-2.075.702-3.34.702-.278 0-.55-.012-.816-.036a.75.75 0 0 1 .133-1.494c.22.02.45.03.683.03 1.082 0 2.025-.221 2.67-.543.69-.345.83-.682.83-.832V7.503L8.307 8.934a.747.747 0 0 1-.614 0L4 7.28v1.663c.296.105.575.275.812.512.438.438.688 1.059.688 1.796v3a.75.75 0 0 1-.75.75h-3a.75.75 0 0 1-.75-.75v-3c0-.737.25-1.358.688-1.796.237-.237.516-.407.812-.512V6.606L.443 5.684a.75.75 0 0 1 0-1.368ZM2.583 5 8 7.428 13.416 5 8 2.572ZM2.5 11.25v2.25H4v-2.25c0-.388-.125-.611-.25-.735a.697.697 0 0 0-.5-.203.707.707 0 0 0-.5.203c-.125.124-.25.347-.25.735Z'/></svg>") center / contain no-repeat;
+}
+
+.degree-meta p:last-child {
+  padding: 0.15em 0.8em;
+  border-radius: 9999px;
+  background: var(--cv-heading);
+  color: #fff;
+  font-size: 0.85em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+/* Seletor de idioma */
+.cv-lang-switch {
+  display: inline-flex;
+  gap: 0.25em;
+  margin-inline-end: 0.5em;
+  align-items: center;
+}
+
+.cv-lang-switch a {
+  font-weight: 600;
+  font-size: 0.85em;
+  padding: 0.15em 0.45em;
+  border-radius: 0.35em;
+  text-decoration: none;
+  color: var(--cv-heading);
+}
+
+.cv-lang-switch a.active {
+  background: var(--cv-heading);
+  color: #fff;
+}
+
+/* Impressão: A4, fundo branco, sem elementos de navegação */
+@page {
+  size: A4 portrait;
+  margin: 1cm;
+
+  @bottom-center {
+    content: "Page " counter(page);
+    font-size: 9pt;
+  }
+}
+
+@media print {
+  html,
+  body {
+    background: #fff !important;
+    color: #3f3f46 !important;
+  }
+
+  .content main {
+    max-width: none;
+  }
+
+  .content h1,
+  .content h2,
+  .content h3,
+  .content h4,
+  .cv-subtitle {
+    color: #3b82f6 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .content a {
+    color: #6366f1 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .contact-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    font-size: 0.8em;
+  }
+
+  .summaries-grid {
+    grid-template-columns: 1fr !important;
+    font-size: 0.8em;
+  }
+
+  .content h2 {
+    margin: 0.9em 0 0.4em;
+  }
+
+  .content h3,
+  .content h4 {
+    margin: 0.8em 0 0.3em;
+  }
+
+  .content p,
+  .content ul {
+    margin: 0.4em 0;
+  }
+
+  .contact-grid {
+    margin: 0.5em 0 0.6em;
+  }
+
+  .content h1.cv-name {
+    margin-top: 0;
+  }
+
+  .mentor-links {
+    font-size: 0.8em;
+  }
+
+  .mentor-links p {
+    margin: 0.3em 0;
+  }
+
+  .summaries-grid h3 {
+    margin: 0.8em 0 0.3em;
+  }
+
+  .summaries-grid p {
+    margin: 0.4em 0;
+  }
+
+
+
+
+  .cv-lang-switch {
+    display: none !important;
+  }
+
+  .content .pills a,
+  .degree::before,
+  .degree-meta p:last-child {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .degree {
+    break-inside: avoid;
+  }
+
+  .pub-meta p:last-child {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .content h3.pub {
+    margin-top: 1.2em;
+  }
+}
+
+html.coal .content .pills a[href^="https://github.com/"]:not([href*="/blob/"]),
+html.navy .content .pills a[href^="https://github.com/"]:not([href*="/blob/"]),
+html.ayu .content .pills a[href^="https://github.com/"]:not([href*="/blob/"]) {
+  border-color: #6e7681;
+}

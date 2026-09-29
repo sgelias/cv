@@ -1,4 +1,2 @@
-node_modules/
-src/output.css
-*.log
-dist
+book
+po/messages.pot

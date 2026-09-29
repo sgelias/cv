@@ -1,0 +1,1405 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Samuel Galvão Elias – Curriculum Vitae\n"
+"POT-Creation-Date: 2026-09-29T09:16:54-03:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/SUMMARY.md:1
+msgid "Summary"
+msgstr "Sumário"
+
+#: src/SUMMARY.md:3 src/summaries.md:16
+msgid "Summaries"
+msgstr "Meus Resumos"
+
+#: src/SUMMARY.md:5 src/public-software.md:1
+msgid "Public Domain Software"
+msgstr "Software de Domínio Público"
+
+#: src/SUMMARY.md:6 src/private-software.md:1
+msgid "Private Software Registrations"
+msgstr "Registros de Software Privado"
+
+#: src/SUMMARY.md:7 src/titration.md:1
+msgid "Titration"
+msgstr "Titulação"
+
+#: src/SUMMARY.md:8 src/publications.md:1
+msgid "Publications in Journals"
+msgstr "Publicações em Periódicos"
+
+#: src/summaries.md:1
+msgid "Samuel Galvão Elias"
+msgstr ""
+
+#: src/summaries.md:21
+msgid "In Microbiology"
+msgstr "Em Microbiologia"
+
+#: src/summaries.md:23
+msgid ""
+"With approximately twelve years of experience in Microbiology and Mycology, "
+"I have developed expertise across two major areas: [Health Sciences]"
+"(publications.md#health-sciences) (where my career began) and [Life Sciences]"
+"(publications.md#life-sciences) (the area of greatest depth and current "
+"focus). My trajectory in Mycology spans eight years of continuous research "
+"conducted in collaboration with leading Brazilian scientists, including "
+"Aristóteles Góes-Neto \\[1\\], Elisandro Ricardo Drechsler-Santos \\[2\\], "
+"João Paulo Machado de Araújo \\[3\\], José Carmine Dianese \\[4\\], Maria "
+"Alice Neves \\[5\\] and Robert W. Barreto \\[6\\] — all mycologists of "
+"national and international distinction. Throughout this period, I also "
+"established research partnerships with international scientists, among them "
+"Charles W. Barnes \\[7\\], Mary Catherine Aime \\[8\\], Harry C. Evans "
+"\\[9\\] and Dominik Begerow \\[10\\], all of whom I regard as direct and "
+"indirect mentors in the field. My primary areas of scientific interest "
+"encompass the genetics, taxonomy, ecology and evolution of microorganisms, "
+"with emphasis on wild fungi and bacteria lacking commercial relevance, as "
+"well as pathogens of agricultural and environmental concern."
+msgstr ""
+"Com aproximadamente doze anos de experiência em Microbiologia e Micologia, "
+"desenvolvi expertise em duas grandes áreas: [Ciências da Saúde](publications."
+"md#health-sciences) (onde minha carreira teve início) e [Ciências da Vida]"
+"(publications.md#life-sciences) (área de maior profundidade e foco atual). "
+"Minha trajetória em Micologia abrange oito anos de pesquisa contínua em "
+"colaboração com destacados cientistas brasileiros, entre eles Aristóteles "
+"Góes-Neto \\[1\\], Elisandro Ricardo Drechsler-Santos \\[2\\], João Paulo "
+"Machado de Araújo \\[3\\], José Carmine Dianese \\[4\\], Maria Alice Neves "
+"\\[5\\] e Robert W. Barreto \\[6\\] — todos micólogos de reconhecimento "
+"nacional e internacional. Ao longo desse período, estabeleci também "
+"parcerias com cientistas internacionais, entre eles Charles W. Barnes "
+"\\[7\\], Mary Catherine Aime \\[8\\], Harry C. Evans \\[9\\] e Dominik "
+"Begerow \\[10\\], todos considerados mentores diretos e indiretos na área. "
+"Meus principais interesses científicos abrangem a genética, taxonomia, "
+"ecologia e evolução de microrganismos, com ênfase em fungos e bactérias "
+"selvagens sem relevância comercial, bem como patógenos de relevância "
+"agrícola e ambiental."
+
+#: src/summaries.md:25
+msgid ""
+"Complementing this background, I hold in-depth knowledge of biostatistical "
+"and bioinformatic analytical techniques (see section [Bioinformatics]"
+"(#bioinformatics)), with a particular focus on genomic and metagenomic data "
+"analysis."
+msgstr ""
+"Como complemento a esse histórico, possuo conhecimento aprofundado em "
+"técnicas de análise bioestatística e bioinformática (ver seção "
+"[Bioinformática](#bioinformatics)), com foco particular na análise de dados "
+"genômicos e metagenômicos."
+
+#: src/summaries.md:27
+msgid ""
+"Driven by scientific inquiry and the elucidation of natural phenomena, a "
+"comprehensive account of my scientific contributions is available in the "
+"[Publications](publications.md) section."
+msgstr ""
+"Movido pela investigação científica e pela elucidação de fenômenos naturais, "
+"um registro abrangente das minhas contribuições científicas está disponível "
+"na seção [Publicações](publications.md)."
+
+#: src/summaries.md:32
+msgid "And in Bioinformatics"
+msgstr "E em Bioinformática"
+
+#: src/summaries.md:34
+msgid ""
+"A self-taught bioinformatician with over ten years of experience in "
+"biological data analysis through biostatistics and bioinformatics "
+"methodologies. In recent years, professional focus has shifted towards the "
+"design and development of high-performance and high-availability "
+"bioinformatics tools tailored for modern, highly connected web environments."
+msgstr ""
+"Bioinformata autodidata com mais de dez anos de experiência em análise de "
+"dados biológicos por meio de metodologias de bioestatística e "
+"bioinformática. Nos últimos anos, o foco profissional deslocou-se para o "
+"design e desenvolvimento de ferramentas bioinformáticas de alto desempenho e "
+"alta disponibilidade, adaptadas para ambientes web modernos e altamente "
+"conectados."
+
+#: src/summaries.md:36
+msgid ""
+"Currently, core activities encompass the modeling, architecture, development "
+"and coordination of multidisciplinary technology teams dedicated to building "
+"high-performance biological data processing environments. Areas of technical "
+"expertise include solutions for parallel processing — a fundamental "
+"requirement for bioinformatics analyses at industrial scale — concurrent "
+"processing for distributed computing environments, and the automation of "
+"large-scale pipelines."
+msgstr ""
+"Atualmente, as atividades principais englobam a modelagem, arquitetura, "
+"desenvolvimento e coordenação de equipes tecnológicas multidisciplinares "
+"dedicadas à construção de ambientes de processamento de dados biológicos de "
+"alto desempenho. As áreas de expertise técnica incluem soluções para "
+"processamento paralelo — requisito fundamental para análises bioinformáticas "
+"em escala industrial —, processamento concorrente para ambientes de "
+"computação distribuída e a automação de pipelines em larga escala."
+
+#: src/summaries.md:38
+msgid ""
+"Additional contributions include the development of web-native and public "
+"domain tools (see section [Public Tools](public-software.md)), among them "
+"Mycelium API Gateway and Mycelium WebApp, a pair of solutions focused on "
+"distributed access control for complex API environments; Blutils CLI and "
+"Blutils UI, a pair of tools dedicated to biological sequence analysis; and "
+"Classeq, a biological sequence classifier for post-phylogenetic placement. "
+"All aforementioned tools are made freely available as open-source projects, "
+"accessible and auditable through the official GitHub of the Lepista "
+"Bioinformatics organisation."
+msgstr ""
+"Contribuições adicionais incluem o desenvolvimento de ferramentas web-"
+"nativas e de domínio público (ver seção [Ferramentas Públicas](public-"
+"software.md)), entre elas o Mycelium API Gateway e o Mycelium WebApp, um par "
+"de soluções voltadas ao controle de acesso distribuído em ambientes de APIs "
+"complexas; o Blutils CLI e o Blutils UI, um par de ferramentas dedicadas à "
+"análise de sequências biológicas; e o Classeq, um classificador de "
+"sequências biológicas para posicionamento filogenético pós-construção. Todas "
+"as ferramentas mencionadas são disponibilizadas gratuitamente como projetos "
+"de código aberto, acessíveis e auditáveis por meio do GitHub oficial da "
+"organização Lepista Bioinformatics."
+
+#: src/summaries.md:45
+msgid "**Links:**"
+msgstr ""
+
+#: src/summaries.md:47
+msgid ""
+"\\[1\\] [A. Góes-Neto](https://orcid.org/0000-0002-7692-6243); \\[2\\] [E. "
+"R. Deschsler-Santos](https://orcid.org/0000-0002-3702-8715); \\[3\\] [J. P. "
+"M. Araújo](https://orcid.org/0000-0003-2529-7691); \\[4\\] [J. C. Dianese]"
+"(https://orcid.org/0000-0002-9100-0545); \\[5\\] [M. A. Neves](https://orcid."
+"org/0000-0002-1810-4890); \\[6\\] [R. W. Barreto](https://orcid."
+"org/0000-0001-8920-4760); \\[7\\] [C. W. Barnes](https://orcid."
+"org/0000-0001-5708-9091); \\[8\\] [M. C. Aime](https://orcid."
+"org/0000-0001-8742-6685); \\[9\\] [H. C. Evans](https://www.cabi.org/cabi-"
+"people/harry-evans/); \\[10\\] [D. Begerow](https://orcid."
+"org/0000-0002-8286-1597)."
+msgstr ""
+
+#: src/public-software.md:3
+msgid ""
+"Over the past three years, independent work has been dedicated to the "
+"development of bioinformatics and web-native tools released as free and open-"
+"source solutions. The overarching objective is to deliver meaningful "
+"contributions to the scientific community and to society at large, through "
+"tools of practical relevance to both specialist and non-specialist users. "
+"The principal tools developed include:"
+msgstr ""
+"Nos últimos três anos, o trabalho independente foi dedicado ao "
+"desenvolvimento de ferramentas bioinformáticas e web-nativas lançadas como "
+"soluções livres e de código aberto. O objetivo principal é oferecer "
+"contribuições significativas à comunidade científica e à sociedade em geral, "
+"por meio de ferramentas de relevância prática tanto para usuários "
+"especializados quanto para o público geral. As principais ferramentas "
+"desenvolvidas incluem:"
+
+#: src/public-software.md:5
+msgid "Zombie Crab Project"
+msgstr ""
+
+#: src/public-software.md:7
+msgid ""
+"An open-source platform that gives every user their own real, isolated AI "
+"agent behind a single authenticated entry point, exposed through an OpenAI-"
+"compatible HTTP API. It was built because self-hosted assistants such as "
+"PicoClaw follow a \"one agent, one owner\" model: when several people share "
+"the same process, a single prompt injection or leaky tool is enough for one "
+"user to read another's conversations, files and secrets. The stack answers "
+"this with three independent layers — an edge (the Mycelium gateway), which "
+"authenticates the caller and injects a verified, unforgeable identity; an "
+"orchestrator (crab-shell-proxy), which gives each (agent, user) pair its own "
+"non-root container and volume; and a swappable agent harness — so that "
+"isolation is enforced by the kernel rather than by application code. Agents "
+"can scale to zero when idle or run continuously, and the chat client adds "
+"workspace memory, a knowledge graph, scheduled tasks, files and secrets "
+"management; the whole stack is deployed with Docker Compose and licensed "
+"under MIT or Apache-2.0. It is the choice for any organisation that wants to "
+"offer AI agents to many people at once without letting one user's agent ever "
+"reach another user's data."
+msgstr ""
+"Uma plataforma de código aberto que oferece a cada usuário o seu próprio "
+"agente de IA, real e isolado, por trás de um único ponto de entrada "
+"autenticado, exposto por meio de uma API HTTP compatível com a OpenAI. Foi "
+"construída porque assistentes auto-hospedados como o PicoClaw seguem o "
+"modelo \"um agente, um dono\": quando várias pessoas compartilham o mesmo "
+"processo, uma única injeção de prompt ou ferramenta vulnerável basta para "
+"que um usuário leia as conversas, os arquivos e os segredos de outro. A "
+"stack resolve isso com três camadas independentes — uma borda (o gateway "
+"Mycelium), que autentica o chamador e injeta uma identidade verificada e "
+"impossível de forjar; um orquestrador (crab-shell-proxy), que dá a cada par "
+"(agente, usuário) o seu próprio contêiner não-root e volume; e um harness de "
+"agente intercambiável —, de modo que o isolamento é garantido pelo kernel, e "
+"não pelo código da aplicação. Os agentes podem ser desligados quando ociosos "
+"ou funcionar continuamente, e o cliente de chat acrescenta memória de "
+"workspace, grafo de conhecimento, tarefas agendadas, arquivos e gestão de "
+"segredos; toda a stack é implantada com Docker Compose e licenciada sob MIT "
+"ou Apache-2.0. É a escolha para qualquer organização que queira oferecer "
+"agentes de IA a muitas pessoas ao mesmo tempo sem que o agente de um usuário "
+"jamais alcance os dados de outro."
+
+#: src/public-software.md:11
+msgid ""
+"[GitHub](https://github.com/LepistaBioinformatics/zombie-crab-project) "
+"[Documentation](https://lepistabioinformatics.github.io/zombie-crab-project/)"
+msgstr ""
+"[GitHub](https://github.com/LepistaBioinformatics/zombie-crab-project) "
+"[Documentação](https://lepistabioinformatics.github.io/zombie-crab-project/)"
+
+#: src/public-software.md:15
+msgid "crab-shell-proxy"
+msgstr ""
+
+#: src/public-software.md:17
+msgid ""
+"The Go orchestrator at the centre of the Zombie Crab stack. For every "
+"request, it reads the target agent and the caller's account from the "
+"identity injected by the gateway — always the stable account id, never the e-"
+"mail — ensures that this member's own container is running, starting it on "
+"demand and stopping it when idle, and relays the conversation to it. It "
+"translates OpenAI-style HTTP into each harness's native protocol and answers "
+"explicitly, naming the harness, whenever a capability is not available, "
+"instead of failing silently. It also hosts the model registry, the knowledge-"
+"graph memory (served to agents over MCP with scoped tokens), scheduled tasks "
+"and projects, and it talks to Docker through its own minimal client, keeping "
+"secrets out of the images. You would use it whenever each user must get a "
+"dedicated, disposable agent environment on demand, managed by a single, "
+"auditable control plane."
+msgstr ""
+"O orquestrador em Go no centro da stack Zombie Crab. A cada requisição, ele "
+"identifica o agente de destino e a conta do chamador a partir da identidade "
+"injetada pelo gateway — sempre o identificador estável da conta, nunca o e-"
+"mail —, garante que o contêiner próprio desse membro esteja em execução, "
+"iniciando-o sob demanda e encerrando-o quando ocioso, e retransmite a "
+"conversa até ele. Traduz o HTTP no padrão da OpenAI para o protocolo nativo "
+"de cada harness e responde de forma explícita, nomeando o harness, sempre "
+"que uma funcionalidade não está disponível, em vez de falhar em silêncio. "
+"Também hospeda o registro de modelos, a memória em grafo de conhecimento "
+"(servida aos agentes via MCP com tokens de escopo restrito), as tarefas "
+"agendadas e os projetos, e conversa com o Docker por meio de um cliente "
+"próprio e mínimo, mantendo os segredos fora das imagens. Você o usaria "
+"sempre que cada usuário precisasse receber, sob demanda, um ambiente de "
+"agente dedicado e descartável, gerido por um único plano de controle "
+"auditável."
+
+#: src/public-software.md:21
+msgid ""
+"[GitHub](https://github.com/LepistaBioinformatics/crab-shell-proxy) "
+"[Documentation](https://lepistabioinformatics.github.io/zombie-crab-"
+"project/50-crab-shell-proxy.html)"
+msgstr ""
+"[GitHub](https://github.com/LepistaBioinformatics/crab-shell-proxy) "
+"[Documentação](https://lepistabioinformatics.github.io/zombie-crab-"
+"project/50-crab-shell-proxy.html)"
+
+#: src/public-software.md:25
+msgid "crab-exoskeleton-webapp"
+msgstr ""
+
+#: src/public-software.md:27
+msgid ""
+"The chat web application of the Zombie Crab stack, through which members "
+"talk to their agents and operators govern the fleet. Built with Next.js 15 "
+"as a backend-for-frontend, it keeps every credential on the server: the "
+"browser holds only an HTTP-only session cookie, with no token, account id or "
+"upstream address, and each request flows through the gateway and the "
+"orchestrator before reaching the agent. Sign-in is passwordless, through a "
+"magic link with a six-digit code; conversations are indexed in PostgreSQL; "
+"and the configuration is read at request time, so a single image serves "
+"every deployment. It is backed by a suite of more than 1,700 automated "
+"tests. You would use it to give end users a familiar chat experience on top "
+"of isolated agents without ever exposing tokens or infrastructure details to "
+"the browser."
+msgstr ""
+"A aplicação web de chat da stack Zombie Crab, por meio da qual os membros "
+"conversam com os seus agentes e os operadores governam a frota. Construída "
+"com Next.js 15 no padrão backend-for-frontend, mantém todas as credenciais "
+"no servidor: o navegador guarda apenas um cookie de sessão HTTP-only, sem "
+"token, identificador de conta ou endereço interno, e cada requisição passa "
+"pelo gateway e pelo orquestrador antes de chegar ao agente. O acesso é feito "
+"sem senha, por meio de um link mágico com código de seis dígitos; as "
+"conversas são indexadas em PostgreSQL; e a configuração é lida no momento de "
+"cada requisição, de modo que uma única imagem atende a qualquer implantação. "
+"Conta com uma suíte de mais de 1.700 testes automatizados. Você a usaria "
+"para oferecer aos usuários finais uma experiência de chat familiar sobre "
+"agentes isolados, sem jamais expor tokens ou detalhes de infraestrutura ao "
+"navegador."
+
+#: src/public-software.md:31
+msgid ""
+"[GitHub](https://github.com/LepistaBioinformatics/crab-exoskeleton-webapp) "
+"[Documentation](https://lepistabioinformatics.github.io/zombie-crab-"
+"project/52-crab-exoskeleton-webapp.html)"
+msgstr ""
+"[GitHub](https://github.com/LepistaBioinformatics/crab-exoskeleton-webapp) "
+"[Documentação](https://lepistabioinformatics.github.io/zombie-crab-"
+"project/52-crab-exoskeleton-webapp.html)"
+
+#: src/public-software.md:35
+msgid "crab-ganglion-harness"
+msgstr ""
+
+#: src/public-software.md:37
+msgid ""
+"The agent runtime written for the Zombie Crab project and now its default "
+"harness. Running inside each member's container, it holds the conversation, "
+"calls the language model, executes tools and records the transcript, "
+"exposing a native HTTP+SSE interface through which narration and reasoning "
+"are streamed live. It was created when the limits of the original assistant "
+"began to cost more than they saved, and it is designed for safety and "
+"simplicity: a single static Go binary with no third-party dependencies, "
+"whose shell tool runs inside a Linux Landlock sandbox that confines each "
+"turn to its own workspace and refuses to start if that protection is "
+"unavailable. It ships with web search and fetch, image generation, sub-"
+"agents, history search and MCP tools, caps the number of tool iterations per "
+"turn, and follows a hexagonal architecture enforced by tests. You would use "
+"it when you need an agent runtime that is small enough to audit and whose "
+"sandbox is guaranteed by the kernel itself."
+msgstr ""
+"O runtime de agentes escrito para o projeto Zombie Crab e hoje o seu harness "
+"padrão. Executado dentro do contêiner de cada membro, ele mantém a conversa, "
+"chama o modelo de linguagem, executa ferramentas e registra a transcrição, "
+"expondo uma interface nativa HTTP+SSE pela qual a narração e o raciocínio "
+"são transmitidos em tempo real. Foi criado quando as limitações do "
+"assistente original passaram a custar mais do que economizavam, e foi "
+"projetado para segurança e simplicidade: um único binário estático em Go, "
+"sem dependências de terceiros, cuja ferramenta de shell roda dentro de um "
+"sandbox Linux Landlock que confina cada turno ao seu próprio workspace e se "
+"recusa a iniciar se essa proteção não estiver disponível. Inclui busca e "
+"leitura na web, geração de imagens, subagentes, busca no histórico e "
+"ferramentas MCP, limita o número de iterações de ferramentas por turno e "
+"segue uma arquitetura hexagonal garantida por testes. Você o usaria quando "
+"precisasse de um runtime de agentes pequeno o bastante para ser auditado e "
+"cujo isolamento é garantido pelo próprio kernel."
+
+#: src/public-software.md:41
+msgid ""
+"[GitHub](https://github.com/LepistaBioinformatics/crab-ganglion-harness) "
+"[Documentation](https://lepistabioinformatics.github.io/zombie-crab-"
+"project/51-crab-ganglion-harness.html)"
+msgstr ""
+"[GitHub](https://github.com/LepistaBioinformatics/crab-ganglion-harness) "
+"[Documentação](https://lepistabioinformatics.github.io/zombie-crab-"
+"project/51-crab-ganglion-harness.html)"
+
+#: src/public-software.md:45
+msgid "harness-sphere"
+msgstr ""
+
+#: src/public-software.md:47
+msgid ""
+"A single-binary OpenTelemetry watcher, written in Rust, that turns the state "
+"of the host, the gateway, the orchestrator, the web application and every "
+"agent container into standard metrics. It was built because the stack "
+"previously emitted no telemetry at all, making it impossible to tell whether "
+"an agent slowed down because of the agent or because of the machine "
+"underneath it. It models six explicit layers, collects data per member, and "
+"is designed never to take itself down: each collector runs in isolation, "
+"failures are contained and retried with back-off, and it deliberately never "
+"touches the Docker socket, token costs or conversation content. You would "
+"use it to observe a multi-tenant agent platform in production with Grafana "
+"or any OpenTelemetry backend, without compromising the privacy of users' "
+"conversations."
+msgstr ""
+"Um observador OpenTelemetry em binário único, escrito em Rust, que "
+"transforma o estado do host, do gateway, do orquestrador, da aplicação web e "
+"de cada contêiner de agente em métricas padronizadas. Foi construído porque "
+"a stack antes não emitia telemetria alguma, o que tornava impossível saber "
+"se um agente ficou lento por causa do próprio agente ou da máquina abaixo "
+"dele. Modela seis camadas explícitas, coleta dados por membro e foi "
+"projetado para nunca derrubar a si mesmo: cada coletor roda isolado, as "
+"falhas são contidas e repetidas com back-off, e ele deliberadamente nunca "
+"acessa o socket do Docker, os custos de tokens ou o conteúdo das conversas. "
+"Você o usaria para observar em produção uma plataforma multi-tenant de "
+"agentes com Grafana ou qualquer backend OpenTelemetry, sem comprometer a "
+"privacidade das conversas dos usuários."
+
+#: src/public-software.md:51
+msgid ""
+"[GitHub](https://github.com/LepistaBioinformatics/harness-sphere) "
+"[Documentation](https://lepistabioinformatics.github.io/zombie-crab-"
+"project/53-harness-sphere.html)"
+msgstr ""
+"[GitHub](https://github.com/LepistaBioinformatics/harness-sphere) "
+"[Documentação](https://lepistabioinformatics.github.io/zombie-crab-"
+"project/53-harness-sphere.html)"
+
+#: src/public-software.md:55
+msgid "crab-mangrove-network"
+msgstr ""
+
+#: src/public-software.md:57
+msgid ""
+"An experimental federated memory network that lets agents share knowledge "
+"over the ActivityPub vocabulary, each agent being an identified bot actor "
+"owned by its human and governed by Mycelium roles. It addresses a limitation "
+"of private memory: two people working on the same problem build two disjoint "
+"knowledge graphs and rediscover the same facts twice. Authority flows in one "
+"direction only — nothing can be shared beyond the sharer's reach, agents "
+"cannot broadcast to groups, and every share waits for the recipient's human "
+"to admit it — while memory is kept as an append-only log of ed25519-signed "
+"activities, so that one author can never overwrite another's. Written using "
+"only the Go standard library, it is entirely optional, and the stack runs "
+"unchanged without it. You would use it when teams want their agents to build "
+"on each other's findings while every human keeps control over what reaches "
+"their own agent."
+msgstr ""
+"Uma rede federada experimental de memória que permite aos agentes "
+"compartilhar conhecimento sobre o vocabulário ActivityPub, sendo cada agente "
+"um ator bot identificado, pertencente ao seu humano e governado pelos papéis "
+"do Mycelium. Ela resolve uma limitação da memória privada: duas pessoas "
+"trabalhando no mesmo problema constroem dois grafos de conhecimento "
+"disjuntos e redescobrem os mesmos fatos duas vezes. A autoridade flui em um "
+"único sentido — nada pode ser compartilhado além do alcance de quem "
+"compartilha, agentes não podem transmitir para grupos e todo "
+"compartilhamento aguarda a aprovação do humano do destinatário —, enquanto a "
+"memória é mantida como um log imutável de atividades assinadas com ed25519, "
+"de modo que um autor jamais pode sobrescrever o conteúdo de outro. Escrita "
+"apenas com a biblioteca padrão do Go, é totalmente opcional, e a stack "
+"funciona inalterada sem ela. Você a usaria quando equipes quisessem que seus "
+"agentes aproveitassem as descobertas uns dos outros, com cada pessoa "
+"mantendo o controle sobre o que chega ao seu próprio agente."
+
+#: src/public-software.md:61
+msgid ""
+"[GitHub](https://github.com/LepistaBioinformatics/crab-mangrove-network) "
+"[Documentation](https://lepistabioinformatics.github.io/zombie-crab-"
+"project/54-crab-mangrove-network.html)"
+msgstr ""
+"[GitHub](https://github.com/LepistaBioinformatics/crab-mangrove-network) "
+"[Documentação](https://lepistabioinformatics.github.io/zombie-crab-"
+"project/54-crab-mangrove-network.html)"
+
+#: src/public-software.md:65
+msgid "Mycelium API Gateway"
+msgstr ""
+
+#: src/public-software.md:67
+msgid ""
+"An open and free API gateway, written in Rust, designed for modern, multi-"
+"tenant and API-oriented environments. It centralises authentication, "
+"identity normalisation, routing and policy enforcement: coarse, role-based "
+"checks are made at the gateway, while a verified profile injected into each "
+"request — treated as an active capability object rather than a mere identity "
+"payload — allows downstream services to take fine-grained, contextual "
+"decisions. It supports tenants, account types and security groups, sign-in "
+"through magic links, OAuth2 providers and Telegram, a JSON-RPC "
+"administration interface, webhooks, envelope encryption and key rotation, "
+"and it can expose downstream APIs as tools for AI agents through the Model "
+"Context Protocol (MCP). It runs with PostgreSQL, Redis and Vault or as a "
+"standalone binary with no external dependencies, and holds the OpenSSF Best "
+"Practices badge. You would use it to protect a set of APIs shared by several "
+"organisations behind a single entry point, keeping the security rules in one "
+"auditable place instead of scattering them across every service."
+msgstr ""
+"Um API Gateway aberto e gratuito, escrito em Rust, projetado para ambientes "
+"modernos, multi-tenant e orientados a APIs. Centraliza autenticação, "
+"normalização de identidade, roteamento e aplicação de políticas: "
+"verificações amplas, baseadas em papéis, são feitas no gateway, enquanto um "
+"perfil verificado injetado em cada requisição — tratado como um objeto de "
+"capacidade ativo, e não como mera informação de identidade — permite que os "
+"serviços a jusante tomem decisões finas e contextuais. Oferece tenants, "
+"tipos de conta e grupos de segurança, login por link mágico, provedores "
+"OAuth2 e Telegram, interface administrativa JSON-RPC, webhooks, criptografia "
+"envelope e rotação de chaves, e pode expor APIs a jusante como ferramentas "
+"para agentes de IA por meio do Model Context Protocol (MCP). Funciona com "
+"PostgreSQL, Redis e Vault ou como binário autônomo sem dependências "
+"externas, e possui o selo OpenSSF Best Practices. Você o usaria para "
+"proteger um conjunto de APIs compartilhadas por várias organizações atrás de "
+"um único ponto de entrada, mantendo as regras de segurança em um só lugar "
+"auditável em vez de espalhá-las por cada serviço."
+
+#: src/public-software.md:71
+msgid ""
+"[GitHub](https://github.com/LepistaBioinformatics/mycelium) [Documentation]"
+"(https://lepistabioinformatics.github.io/mycelium/)"
+msgstr ""
+"[GitHub](https://github.com/LepistaBioinformatics/mycelium) [Documentação]"
+"(https://lepistabioinformatics.github.io/mycelium/)"
+
+#: src/public-software.md:75
+msgid "Mycelium WebApp"
+msgstr ""
+
+#: src/public-software.md:77
+msgid ""
+"The official web interface of the Mycelium API Gateway, designed to allow "
+"rapid implementation of access policies to the gateway's endpoints without "
+"the need for additional implementation. Built with React 19, Vite and "
+"TypeScript, it offers login through any OAuth 2.0 provider, a dashboard, and "
+"the management of tenants, accounts and sharing, roles, fine-grained "
+"connection strings and webhooks, with a mobile-friendly and multilingual "
+"layout. You would use it to administer a Mycelium deployment visually, "
+"delegating day-to-day access management to operators who do not need to "
+"handle the gateway's configuration directly."
+msgstr ""
+"A interface web oficial do Mycelium API Gateway, projetada para permitir a "
+"implementação ágil de políticas de acesso aos endpoints do gateway, sem a "
+"necessidade de implementação adicional. Construída com React 19, Vite e "
+"TypeScript, oferece login por qualquer provedor OAuth 2.0, painel de "
+"controle e a gestão de tenants, contas e compartilhamentos, papéis, strings "
+"de conexão com permissões finas e webhooks, com layout adaptado a "
+"dispositivos móveis e suporte a vários idiomas. Você a usaria para "
+"administrar visualmente uma implantação do Mycelium, delegando a gestão "
+"cotidiana de acessos a operadores que não precisam lidar diretamente com a "
+"configuração do gateway."
+
+#: src/public-software.md:81
+msgid "[GitHub](https://github.com/LepistaBioinformatics/mycelium-webapp)"
+msgstr ""
+
+#: src/public-software.md:85
+msgid "Blutils CLI"
+msgstr ""
+
+#: src/public-software.md:87
+msgid ""
+"A high-performance command-line wrapper for NCBI BLASTn, written in Rust and "
+"distributed on crates.io, that improves on BLAST's native parallelism and "
+"adds an exclusive consensus algorithm for taxonomic identification. When a "
+"query sequence matches several reference organisms with similar scores, "
+"Blutils resolves these multiple identities into a single consensus, using "
+"presets tailored to fungi and eukaryotes (ITS cut-offs), to bacteria (16S "
+"rRNA) or custom thresholds, and two strategies — cautious, which keeps the "
+"shortest reliable taxonomic path, and relaxed, which keeps the longest. It "
+"builds its reference database from the NCBI taxonomy and a BLAST database, "
+"and writes results as JSON, JSONL or YAML, ready for downstream pipelines. "
+"You would use it to classify large sets of amplicon or metabarcoding "
+"sequences quickly and with reproducible, explainable taxonomic assignments."
+msgstr ""
+"Um wrapper de linha de comando de alto desempenho para o BLASTn do NCBI, "
+"escrito em Rust e distribuído no crates.io, que aprimora o paralelismo "
+"nativo do BLAST e acrescenta um algoritmo de consenso exclusivo para "
+"identificação taxonômica. Quando uma sequência consultada corresponde a "
+"vários organismos de referência com pontuações semelhantes, o Blutils "
+"resolve essas múltiplas identidades em um único consenso, usando "
+"predefinições ajustadas para fungos e eucariotos (limiares de ITS), para "
+"bactérias (rRNA 16S) ou limiares personalizados, e duas estratégias — "
+"cautelosa, que mantém o caminho taxonômico confiável mais curto, e relaxada, "
+"que mantém o mais longo. Constrói o seu banco de referência a partir da "
+"taxonomia do NCBI e de um banco BLAST, e grava os resultados em JSON, JSONL "
+"ou YAML, prontos para pipelines subsequentes. Você o usaria para classificar "
+"grandes conjuntos de sequências de amplicons ou de metabarcoding com rapidez "
+"e com atribuições taxonômicas reprodutíveis e explicáveis."
+
+#: src/public-software.md:91
+msgid ""
+"[GitHub](https://github.com/LepistaBioinformatics/blutils) [Documentation]"
+"(https://github.com/LepistaBioinformatics/blutils/blob/main/docs/book/README."
+"md) [Crates](https://crates.io/crates/blutils-cli)"
+msgstr ""
+"[GitHub](https://github.com/LepistaBioinformatics/blutils) [Documentação]"
+"(https://github.com/LepistaBioinformatics/blutils/blob/main/docs/book/README."
+"md) [Crates](https://crates.io/crates/blutils-cli)"
+
+#: src/public-software.md:95
+msgid "Blutils UI"
+msgstr ""
+
+#: src/public-software.md:97
+msgid ""
+"A visual explorer for the consensus results produced by Blutils CLI, running "
+"entirely in the browser and published on GitHub Pages. The user simply loads "
+"the results file and explores it in three complementary views — a filterable "
+"table, a tree grouped by taxonomic rank and a network grouped by query "
+"sequence — together with a composition chart that explains why each "
+"consensus identity was selected. Because all processing happens on the "
+"client, the data never leaves the user's computer. You would use it to "
+"inspect and communicate taxonomic results without installing anything and "
+"without uploading sensitive data to a server."
+msgstr ""
+"Um explorador visual dos resultados de consenso produzidos pelo Blutils CLI, "
+"executado inteiramente no navegador e publicado no GitHub Pages. O usuário "
+"simplesmente carrega o arquivo de resultados e o explora em três visões "
+"complementares — uma tabela com filtros, uma árvore agrupada por nível "
+"taxonômico e uma rede agrupada por sequência consultada —, acompanhadas de "
+"um gráfico de composição que explica por que cada identidade de consenso foi "
+"escolhida. Como todo o processamento acontece no cliente, os dados nunca "
+"saem do computador do usuário. Você o usaria para inspecionar e comunicar "
+"resultados taxonômicos sem instalar nada e sem enviar dados sensíveis a um "
+"servidor."
+
+#: src/public-software.md:101
+msgid ""
+"[GitHub](https://github.com/LepistaBioinformatics/blutils-ui) [Online "
+"Interface](https://lepistabioinformatics.github.io/blutils-ui/)"
+msgstr ""
+"[GitHub](https://github.com/LepistaBioinformatics/blutils-ui) [Interface "
+"Online](https://lepistabioinformatics.github.io/blutils-ui/)"
+
+#: src/public-software.md:105
+msgid "Classeq"
+msgstr ""
+
+#: src/public-software.md:107
+msgid ""
+"An alignment-free phylogenetic placer of biological sequences, written in "
+"Rust, that positions new DNA sequences on a predefined reference phylogeny "
+"based on their k-mer composition. It is the improved implementation of the "
+"classifier developed during my doctoral research, and it avoids the cost of "
+"multiple sequence alignment while keeping the results anchored in an "
+"explicit evolutionary tree, supplied as a rooted Newick file with its "
+"reference sequences. It is available as a command-line tool and as an API "
+"server for distributed placement, and it emits OpenTelemetry logs and "
+"traces; the project is still under active development. You would use it to "
+"classify sequences quickly against a curated phylogeny, obtaining placements "
+"that can be interpreted in evolutionary terms rather than as simple "
+"similarity hits."
+msgstr ""
+"Um posicionador filogenético de sequências biológicas livre de alinhamento, "
+"escrito em Rust, que posiciona novas sequências de DNA em uma filogenia de "
+"referência pré-definida com base na sua composição de k-mers. É a "
+"implementação aprimorada do classificador desenvolvido durante a minha "
+"pesquisa de doutorado, e evita o custo do alinhamento múltiplo de sequências "
+"mantendo os resultados ancorados em uma árvore evolutiva explícita, "
+"fornecida como um arquivo Newick enraizado com as suas sequências de "
+"referência. Está disponível como ferramenta de linha de comando e como "
+"servidor de API para posicionamento distribuído, e emite logs e traces "
+"OpenTelemetry; o projeto segue em desenvolvimento ativo. Você o usaria para "
+"classificar sequências rapidamente contra uma filogenia curada, obtendo "
+"posicionamentos que podem ser interpretados em termos evolutivos, e não como "
+"simples correspondências de similaridade."
+
+#: src/public-software.md:111
+msgid ""
+"[GitHub](https://github.com/LepistaBioinformatics/classeq2) [Documentation]"
+"(https://github.com/LepistaBioinformatics/classeq2/blob/main/docs/README.md)"
+msgstr ""
+"[GitHub](https://github.com/LepistaBioinformatics/classeq2) [Documentação]"
+"(https://github.com/LepistaBioinformatics/classeq2/blob/main/docs/README.md)"
+
+#: src/private-software.md:3
+msgid ""
+"Current professional focus is concentrated on the development of "
+"bioinformatics tools for the Agrobiotechnology sector, encompassing "
+"solutions for genomic and metagenomic data analysis as well as biological "
+"sequence processing. Parallel efforts have been directed towards the design "
+"and delivery of web-native, high-availability interfaces supporting software "
+"solutions for Brazilian agribusiness."
+msgstr ""
+"O foco profissional atual está concentrado no desenvolvimento de ferramentas "
+"bioinformáticas para o setor de Agrobiotecnologia, abrangendo soluções para "
+"análise de dados genômicos e metagenômicos, bem como o processamento de "
+"sequências biológicas. Esforços paralelos têm sido direcionados ao design e "
+"entrega de interfaces web-nativas de alta disponibilidade que suportam "
+"soluções de software para o agronegócio brasileiro."
+
+#: src/private-software.md:5
+msgid ""
+"The registrations listed below, filed with the Brazilian Patent and "
+"Trademark Office (INPI) between 2022 and 2026, span metagenomic and genomic "
+"processing pipelines through to high-availability web applications for "
+"agribusiness."
+msgstr ""
+"Os registros listados abaixo, depositados no Instituto Nacional da "
+"Propriedade Industrial (INPI) entre 2022 e 2026, abrangem desde pipelines de "
+"processamento genômico e metagenômico até aplicações web de alta "
+"disponibilidade para o agronegócio."
+
+#: src/private-software.md:7
+msgid "2025"
+msgstr ""
+
+#: src/private-software.md:9
+msgid "RobsonsAutomationHub"
+msgstr ""
+
+#: src/private-software.md:11
+msgid "**Kind (Language):** Automation (Python)"
+msgstr "**Tipo (Linguagem):** Automação (Python)"
+
+#: src/private-software.md:12
+msgid "**Application:** BR 51 2026 000320 2"
+msgstr "**Registro:** BR 51 2026 000320 2"
+
+#: src/private-software.md:14
+msgid "AgroPortal"
+msgstr ""
+
+#: src/private-software.md:16 src/private-software.md:61
+#: src/private-software.md:103 src/private-software.md:108
+msgid "**Kind (Language):** WEB (Typescript/HTML/CSS)"
+msgstr "**Tipo (Linguagem):** WEB (Typescript/HTML/CSS)"
+
+#: src/private-software.md:17
+msgid "**Application:** BR 51 2026 000317 2"
+msgstr "**Registro:** BR 51 2026 000317 2"
+
+#: src/private-software.md:19
+msgid "SupernovaFungiDeep"
+msgstr ""
+
+#: src/private-software.md:21 src/private-software.md:26
+#: src/private-software.md:31 src/private-software.md:36
+#: src/private-software.md:41 src/private-software.md:78
+#: src/private-software.md:83
+msgid "**Kind (Language):** Pipeline (Python)"
+msgstr "**Tipo (Linguagem):** Pipeline (Python)"
+
+#: src/private-software.md:22
+msgid "**Application:** BR 51 2026 000316 4"
+msgstr "**Registro:** BR 51 2026 000316 4"
+
+#: src/private-software.md:24
+msgid "SupernovaBacteriaShallow"
+msgstr ""
+
+#: src/private-software.md:27
+msgid "**Application:** BR 51 2026 000315 6"
+msgstr "**Registro:** BR 51 2026 000315 6"
+
+#: src/private-software.md:29
+msgid "SupernovaBacteriaDeep"
+msgstr ""
+
+#: src/private-software.md:32
+msgid "**Application:** BR 51 2026 000314 8"
+msgstr "**Registro:** BR 51 2026 000314 8"
+
+#: src/private-software.md:34
+msgid "SilentBio"
+msgstr ""
+
+#: src/private-software.md:37
+msgid "**Application:** BR 51 2026 000312 1"
+msgstr "**Registro:** BR 51 2026 000312 1"
+
+#: src/private-software.md:39
+msgid "ReportBuilder"
+msgstr ""
+
+#: src/private-software.md:42
+msgid "**Application:** BR 51 2026 000311 3"
+msgstr "**Registro:** BR 51 2026 000311 3"
+
+#: src/private-software.md:44
+msgid "NaturalStackAPI"
+msgstr ""
+
+#: src/private-software.md:46 src/private-software.md:51
+#: src/private-software.md:56 src/private-software.md:93
+#: src/private-software.md:113 src/private-software.md:135
+#: src/private-software.md:140
+msgid "**Kind (Language):** API (Python)"
+msgstr "**Tipo (Linguagem):** API (Python)"
+
+#: src/private-software.md:47
+msgid "**Application:** BR 51 2026 000310 5"
+msgstr "**Registro:** BR 51 2026 000310 5"
+
+#: src/private-software.md:49
+msgid "EVAAuth"
+msgstr ""
+
+#: src/private-software.md:52
+msgid "**Application:** BR 51 2026 000309 1"
+msgstr "**Registro:** BR 51 2026 000309 1"
+
+#: src/private-software.md:54
+msgid "CustomersAPI"
+msgstr ""
+
+#: src/private-software.md:57
+msgid "**Application:** BR 51 2026 000308 3"
+msgstr "**Registro:** BR 51 2026 000308 3"
+
+#: src/private-software.md:59
+msgid "AgroPortalCustomers"
+msgstr ""
+
+#: src/private-software.md:62
+msgid "**Application:** BR 51 2026 000153 6"
+msgstr "**Registro:** BR 51 2026 000153 6"
+
+#: src/private-software.md:64
+msgid "AgrobiotaSDK"
+msgstr ""
+
+#: src/private-software.md:66 src/private-software.md:123
+msgid "**Kind (Language):** LIBRARY (Python)"
+msgstr "**Tipo (Linguagem):** BIBLIOTECA (Python)"
+
+#: src/private-software.md:67
+msgid "**Application:** BR 51 2026 000152 8"
+msgstr "**Registro:** BR 51 2026 000152 8"
+
+#: src/private-software.md:69
+msgid "2023"
+msgstr ""
+
+#: src/private-software.md:71 src/private-software.md:128
+msgid "QuorumSensing"
+msgstr ""
+
+#: src/private-software.md:73 src/private-software.md:130
+msgid "**Kind (Language):** API/ETL (Python)"
+msgstr "**Tipo (Linguagem):** API/ETL (Python)"
+
+#: src/private-software.md:74
+msgid "**Application:** BR 51 2023 003328 6"
+msgstr "**Registro:** BR 51 2023 003328 6"
+
+#: src/private-software.md:76
+msgid "PathFinder"
+msgstr ""
+
+#: src/private-software.md:79
+msgid "**Application:** BR 51 2023 003327 8"
+msgstr "**Registro:** BR 51 2023 003327 8"
+
+#: src/private-software.md:81
+msgid "MetaDaVinci"
+msgstr ""
+
+#: src/private-software.md:84
+msgid "**Application:** BR 51 2023 003324 3"
+msgstr "**Registro:** BR 51 2023 003324 3"
+
+#: src/private-software.md:86
+msgid "BioTax"
+msgstr ""
+
+#: src/private-software.md:88 src/private-software.md:98
+msgid "**Kind (Language):** API (Rust)"
+msgstr "**Tipo (Linguagem):** API (Rust)"
+
+#: src/private-software.md:89
+msgid "**Application:** BR 51 2023 003321 9"
+msgstr "**Registro:** BR 51 2023 003321 9"
+
+#: src/private-software.md:91
+msgid "BioReferee"
+msgstr ""
+
+#: src/private-software.md:94
+msgid "**Application:** BR 51 2023 003311 1"
+msgstr "**Registro:** BR 51 2023 003311 1"
+
+#: src/private-software.md:96
+msgid "BioArchival"
+msgstr ""
+
+#: src/private-software.md:99
+msgid "**Application:** BR 51 2023 003309 0"
+msgstr "**Registro:** BR 51 2023 003309 0"
+
+#: src/private-software.md:101
+msgid "AgroReporterUI"
+msgstr ""
+
+#: src/private-software.md:104
+msgid "**Application:** BR 51 2023 003305 7"
+msgstr "**Registro:** BR 51 2023 003305 7"
+
+#: src/private-software.md:106
+msgid "Agroportal"
+msgstr ""
+
+#: src/private-software.md:109
+msgid "**Application:** BR 51 2023 003302 2"
+msgstr "**Registro:** BR 51 2023 003302 2"
+
+#: src/private-software.md:111
+msgid "AgroIndexAPI"
+msgstr ""
+
+#: src/private-software.md:114
+msgid "**Application:** BR 51 2023 003300 6"
+msgstr "**Registro:** BR 51 2023 003300 6"
+
+#: src/private-software.md:116
+msgid "AgroBase-Rust"
+msgstr ""
+
+#: src/private-software.md:118
+msgid "**Kind (Language):** LIBRARY (Rust)"
+msgstr "**Tipo (Linguagem):** BIBLIOTECA (Rust)"
+
+#: src/private-software.md:119
+msgid "**Application:** BR 51 2023 003288 3"
+msgstr "**Registro:** BR 51 2023 003288 3"
+
+#: src/private-software.md:121 src/private-software.md:138
+msgid "AgroBase-Python"
+msgstr ""
+
+#: src/private-software.md:124
+msgid "**Application:** BR 51 2023 003286 7"
+msgstr "**Registro:** BR 51 2023 003286 7"
+
+#: src/private-software.md:126 src/publications.md:31 src/publications.md:47
+msgid "2022"
+msgstr ""
+
+#: src/private-software.md:131
+msgid "**Application:** BR 51 2022 003473 5"
+msgstr "**Registro:** BR 51 2022 003473 5"
+
+#: src/private-software.md:133
+msgid "AgroBase-Python (update)"
+msgstr "AgroBase-Python (atualização)"
+
+#: src/private-software.md:136
+msgid "**Application:** BR 51 2022 003472 7"
+msgstr "**Registro:** BR 51 2022 003472 7"
+
+#: src/private-software.md:141
+msgid "**Application:** BR 51 2022 003471 9"
+msgstr "**Registro:** BR 51 2022 003471 9"
+
+#: src/titration.md:7
+msgid "PhD in Microbiology"
+msgstr "Doutorado em Microbiologia"
+
+#: src/titration.md:11
+msgid "University of Brasília (UnB)"
+msgstr "Universidade de Brasília (UnB)"
+
+#: src/titration.md:13
+msgid "2017"
+msgstr ""
+
+#: src/titration.md:17
+msgid ""
+"The doctoral thesis, entitled \"Fungi in Cerrado plants: an integrative "
+"approach\", resulted in the development of two bioinformatics tools: "
+"\"GeneConnector\" and \"Classeq\". The former was designed to consolidate "
+"genetic information by leveraging metadata intrinsic to GenBank records. The "
+"latter, \"Classeq\", is a biological sequence classifier that employs pre-"
+"built phylogenies to position DNA sequences with high performance, reduced "
+"computational cost and low error rate, through an API-accessible environment "
+"designed for machine integration."
+msgstr ""
+"A tese de doutoramento, intitulada \"Fungi in Cerrado plants: an integrative "
+"approach\", resultou no desenvolvimento de duas ferramentas bioinformáticas: "
+"\"GeneConnector\" e \"Classeq\". A primeira foi desenvolvida para consolidar "
+"informações genéticas a partir dos metadados intrínsecos aos registros do "
+"GenBank. A segunda, \"Classeq\", é um classificador de sequências biológicas "
+"que emprega filogenias pré-construídas para posicionar sequências de DNA com "
+"alto desempenho, baixo custo computacional e reduzida taxa de erro, por meio "
+"de um ambiente acessível via API projetado para integração com máquinas."
+
+#: src/titration.md:23
+msgid "Master in Fungi, Algae and Plant Biology"
+msgstr "Mestrado em Biologia de Fungos, Algas e Plantas"
+
+#: src/titration.md:27
+msgid "Federal University of Santa Catarina (UFSC)"
+msgstr "Universidade Federal de Santa Catarina (UFSC)"
+
+#: src/titration.md:29
+msgid "2015"
+msgstr ""
+
+#: src/titration.md:33
+msgid ""
+"The master's dissertation comprised a biogeographic study of the fungus "
+"_Phellinotus piptadeniae_, a species widely distributed across the "
+"neotropical region in association with legume hosts. Environmental modelling "
+"tools were applied, drawing on the fungus–host relationship, to infer the "
+"probable geographic distribution of the species. The study further "
+"identified a putative species complex within _Phellinotus_, characterised by "
+"a diffuse evolutionary history shaped by climatic fluctuations and "
+"ecological interactions."
+msgstr ""
+"A dissertação de mestrado compreendeu um estudo biogeográfico do fungo "
+"_Phellinotus piptadeniae_, espécie amplamente distribuída na região "
+"neotropical em associação com hospedeiros leguminosos. Ferramentas de "
+"modelagem ambiental foram aplicadas, com base na relação fungo–hospedeiro, "
+"para inferir a provável distribuição geográfica da espécie. O estudo "
+"identificou ainda um putativo complexo de espécies em _Phellinotus_, "
+"caracterizado por uma história evolutiva difusa moldada por flutuações "
+"climáticas e interações ecológicas."
+
+#: src/titration.md:39
+msgid "Bachelor in Biological Sciences"
+msgstr "Bacharelado em Ciências Biológicas"
+
+#: src/titration.md:43
+msgid "University of the Extreme South of Santa Catarina (UNESC)"
+msgstr "Universidade do Extremo Sul Catarinense (UNESC)"
+
+#: src/titration.md:45
+msgid "2011"
+msgstr ""
+
+#: src/titration.md:49
+msgid ""
+"Undergraduate training provided a solid foundation in pathogen–host "
+"interaction biology, with research conducted using bacteria and non-human "
+"animal models in the context of neurodegenerative diseases, including "
+"meningitis. This period also established core competencies in biostatistics "
+"and n-dimensional modelling, alongside the opportunity to collaborate with "
+"neuroscientists Tatiane Barichello and João Quevedo, both of international "
+"standing in their respective fields."
+msgstr ""
+"A formação de graduação proporcionou uma sólida base em biologia da "
+"interação patógeno–hospedeiro, com pesquisas realizadas utilizando bactérias "
+"e modelos animais não humanos no contexto de doenças neurodegenerativas, "
+"incluindo a meningite. Esse período também estabeleceu competências "
+"fundamentais em bioestatística e modelagem n-dimensional, além da "
+"oportunidade de colaborar com os neurocientistas Tatiane Barichello e João "
+"Quevedo, ambos de reconhecimento internacional em suas respectivas áreas."
+
+#: src/publications.md:3
+msgid ""
+"The scientific trajectory presented herein is defined by two major "
+"professional phases: an initial period dedicated to Health Sciences "
+"research, followed by a transition and subsequent consolidation in Life "
+"Sciences and Bioinformatics. The contributions listed in the sections below "
+"are organised by field of knowledge and presented in reverse chronological "
+"order."
+msgstr ""
+"A trajetória científica aqui apresentada é definida por duas grandes fases "
+"profissionais: um período inicial dedicado à pesquisa em Ciências da Saúde, "
+"seguido de uma transição e posterior consolidação nas Ciências da Vida e na "
+"Bioinformática. As contribuições listadas nas seções abaixo estão "
+"organizadas por área do conhecimento e apresentadas em ordem cronológica "
+"inversa."
+
+#: src/publications.md:5
+msgid "Life Sciences and Bioinformatics"
+msgstr "Ciências da Vida e Bioinformática"
+
+#: src/publications.md:7
+msgid ""
+"The following entries comprise scientific contributions within the fields of "
+"Life Sciences and Bioinformatics, covering publications from 2018 to 2024."
+msgstr ""
+"Os registros a seguir compreendem contribuições científicas nas áreas de "
+"Ciências da Vida e Bioinformática, abrangendo publicações de 2018 a 2024."
+
+#: src/publications.md:9
+msgid "GeneConnector: Unlocking the full potential of Genbank metadata"
+msgstr ""
+
+#: src/publications.md:13
+msgid ""
+"IEEE Latin America Transactions, vol. 22, no. 2, pp. 99-105, Feb. 2024, doi: "
+"10.1109/TLA.2024.10412034."
+msgstr ""
+
+#: src/publications.md:15
+msgid "2024"
+msgstr ""
+
+#: src/publications.md:21
+msgid ""
+"**ELIAS, S. GALVAO** ; GUTERRES, D. CERVIERI ; BARRETO, R. WEINGART ; VALE, "
+"H. MARIO MARTINS DO"
+msgstr ""
+
+#: src/publications.md:25
+msgid ""
+"Neotropical Studies on Hymenochaetaceae: Unveiling the Diversity and "
+"Endemicity of Phellinotus"
+msgstr ""
+
+#: src/publications.md:29
+msgid ""
+"J Fungi (Basel). 2022 Feb 22; 8(3):216. doi: 10.3390/jof8030216. PMID: "
+"35330218; PMCID: PMC8950266."
+msgstr ""
+
+#: src/publications.md:37
+msgid ""
+"SALVADOR-MONTOYA, C. A. ; **ELIAS, S. G.** ; POPOFF, O. F. ; ROBLEDO, G. "
+"L. ; URCELAY, C. ; GÓES-NETO, A. ; MARTÍNEZ, S. ; DRECHSLER-SANTOS, E. R."
+msgstr ""
+
+#: src/publications.md:41
+msgid ""
+"Reinstatement and phylogenetic allocation of the palm rust genus Cerradoa in "
+"the Pucciniaceae, and establishment of Pseudocerradoa, gen. nov"
+msgstr ""
+
+#: src/publications.md:45
+msgid "MYCOLOGIA, v. 115, p. 1-19, 2022"
+msgstr ""
+
+#: src/publications.md:53
+msgid ""
+"EBINGHAUS, MALTE ; DOS SANTOS, MARIA D. M. ; SOUZA, ERICA S. C. ; BARNES, "
+"CHARLES W. ; NDACNOU, MIRAINE K. ; VÉLEZ-ZAMBRANO, SÉRGIO M. ; **GALVÃO-"
+"ELIAS, SAMUEL** ; BEGEROW, DOMINIK ; BARRETO, R. W. ; Dianese, José C."
+msgstr ""
+
+#: src/publications.md:57
+msgid ""
+"Phytophthora theobromicola sp. nov.: A New Species Causing Black Pod Disease "
+"on Cacao in Brazil"
+msgstr ""
+
+#: src/publications.md:61
+msgid ""
+"Frontiers in Microbiology, Volume 12, 2021. DOI: 10.3389/fmicb.2021.537399. "
+"ISSN: 1664-302X."
+msgstr ""
+
+#: src/publications.md:63
+msgid "2021"
+msgstr ""
+
+#: src/publications.md:69
+msgid ""
+"DECLOQUEMENT, J. ; RAMOS-SOBRINHO, R. ; **ELIAS, S. G.** ; BRITTO, D. S. ; "
+"PUIG, A. S. ; REIS, A. ; DA SILVA, R. A. F. ; HONORATO-JÚNIOR, J. ; LUZ, E. "
+"D. M. N. ; PINHO, D. B. ; MARELLI, J.-P."
+msgstr ""
+
+#: src/publications.md:73
+msgid ""
+"Studies on the biogeography of Phellinotus piptadeniae (Hymenochaetales, "
+"Basidiomycota): Expanding the knowledge on its distribution and clarifying "
+"hosts relationships"
+msgstr ""
+
+#: src/publications.md:77
+msgid "Fungal Ecology, Volume 45, 2020, 100912, ISSN 1754-5048."
+msgstr ""
+
+#: src/publications.md:79 src/publications.md:95 src/publications.md:111
+msgid "2020"
+msgstr ""
+
+#: src/publications.md:85
+msgid ""
+"**ELIAS, S. G.** ; SALVADOR-MONTOYA, C. A. ; COSTA-REZENDE, D. H. ; "
+"GUTERRES, D. C. ; FERNANDES, M. ; OLKOSKI, D. ; KLABUNDE, G. H. F. ; "
+"DRECHSLER-SANTOS, E. R."
+msgstr ""
+
+#: src/publications.md:89
+msgid ""
+"Moniliophthora perniciosa, the mushroom causing witches's broom disease of "
+"cacao: Insights into its taxonomy, ecology and host range in Brazil"
+msgstr ""
+
+#: src/publications.md:93
+msgid ""
+"Fungal Biology, Volume 124, Issue 12, 2020, Pages 983-1003, ISSN 1878-6146."
+msgstr ""
+
+#: src/publications.md:101
+msgid ""
+"LISBOA, D. O. ; EVANS, H. C. ; ARAÚJO, J. P. M. ; **ELIAS, S. G.** ; "
+"BARRETO, R. W."
+msgstr ""
+
+#: src/publications.md:105
+msgid ""
+"A new section, Lactifluus section Neotropicus (Russulaceae), and two new "
+"Lactifluus species from the Atlantic Forest, Brazil"
+msgstr ""
+
+#: src/publications.md:109
+msgid "Systematics and Biodiversity, 18(4), 347–361."
+msgstr ""
+
+#: src/publications.md:117
+msgid ""
+"DUQUE BARBOSA, J. A. ; DELGAT, L. ; **GALVÃO ELIAS, S.** ; VERBEKEN, A. ; "
+"NEVES, M. A. ; CARVALHO, A. ALVES DE"
+msgstr ""
+
+#: src/publications.md:121
+msgid ""
+"Phaeochorellaceae, Diaporthales: a new fungal family and a re-appraisal of "
+"Phaeochorella species."
+msgstr ""
+
+#: src/publications.md:125
+msgid "MYCOLOGIA, v. 111, p. 1-16, 2019"
+msgstr ""
+
+#: src/publications.md:127 src/publications.md:143
+msgid "2019"
+msgstr ""
+
+#: src/publications.md:133
+msgid ""
+"GUTERRES, D. C. ; **ELIAS, S. G.** ; SANTOS, M. D. M. ; SOUZA, B. C. P. ; "
+"ALMEIDA, C. P. ; PINHO, D. B. ; MILLER, R. N. G. ; DIANESE, J. C."
+msgstr ""
+
+#: src/publications.md:137
+msgid ""
+"Phylogenetic Relationships of Phaeochorella Parinarii and Recognition of a "
+"New Family, Phaeochorellaceae (Diaporthales)"
+msgstr ""
+
+#: src/publications.md:141
+msgid "Mycologia 111, no. 4 (2019): 660–75."
+msgstr ""
+
+#: src/publications.md:149
+msgid ""
+"GUTERRES, D. C. ; **GALVÃO-ELIAS, S.** ; SANTOS, M. D. M. ; SOUZA, B. C. "
+"P. ; ALMEIDA, C. P. ; PINHO, D. B. ; MILLER, R. N. G. ; DIANESE, J. C."
+msgstr ""
+
+#: src/publications.md:153
+msgid ""
+"Taxonomy, phylogeny, and divergence time estimation for Apiosphaeria "
+"guaranitica, a neotropical parasite on bignoniaceous hosts."
+msgstr ""
+
+#: src/publications.md:157
+msgid "MYCOLOGIA, v. 110, p. 526-545, 2018"
+msgstr ""
+
+#: src/publications.md:159 src/publications.md:175
+msgid "2018"
+msgstr ""
+
+#: src/publications.md:165
+msgid ""
+"GUTERRES, D. C. ; **GALVAO-ELIAS, S.** ; SOUZA, B. C. P. ; PINHO, D. B. ; "
+"SANTOS, M. D. M. ; MILLER, R. N. G. ; DIANESE, J. C."
+msgstr ""
+
+#: src/publications.md:169
+msgid "Crossopsorella, a new tropical genus of rust fungi"
+msgstr ""
+
+#: src/publications.md:173
+msgid "Phytotaxa, v. 375, p. 189-202, 2018"
+msgstr ""
+
+#: src/publications.md:181
+msgid ""
+"SOUZA, E. S. C. ; AIME, M. C. ; **ELIAS, S. G.** ; PINHO, D. B. ; MILLER, R. "
+"N. G. ; DIANESE, J. C."
+msgstr ""
+
+#: src/publications.md:185
+msgid "Health Sciences"
+msgstr "Ciências da Saúde"
+
+#: src/publications.md:187
+msgid ""
+"The following entries comprise scientific contributions within the field of "
+"Health Sciences, covering publications from 2013 to 2014."
+msgstr ""
+"Os registros a seguir compreendem contribuições científicas na área de "
+"Ciências da Saúde, abrangendo publicações de 2013 a 2014."
+
+#: src/publications.md:189
+msgid ""
+"Inhibition of matrix metalloproteinases-2 and -9 prevents cognitive "
+"impairment induced by pneumococcal meningitis in Wistar rats"
+msgstr ""
+
+#: src/publications.md:193
+msgid ""
+"Exp Biol Med (Maywood). 2014 Feb; 239(2):225-31. doi: "
+"10.1177/1535370213508354. Epub 2014 Jan 13. PMID: 24419461."
+msgstr ""
+
+#: src/publications.md:195 src/publications.md:211
+msgid "2014"
+msgstr ""
+
+#: src/publications.md:201
+msgid ""
+"BARICHELLO, T. ; GENEROSO, J. S. ; MICHELON, C. M. ; SIMÕES, L. R. ; "
+"**ELIAS, S. G.** ; VUOLO, F. ; COMIM, C. M. ; DAL-PIZZOL, F. ; QUEVEDO, J."
+msgstr ""
+
+#: src/publications.md:205
+msgid ""
+"Klebsiella pneumoniae meningitis induces memory impairment and increases pro-"
+"inflammatory host response in the central nervous system of Wistar rats"
+msgstr ""
+
+#: src/publications.md:209
+msgid ""
+"J Med Microbiol. 2014 Jan; 63(Pt 1):111-117. doi: 10.1099/jmm.0.063289-0. "
+"Epub 2013 Oct 8. PMID: 24105840."
+msgstr ""
+
+#: src/publications.md:217
+msgid ""
+"BARICHELLO, T. ; SIMÕES, L. R. ; VALVASSORI, S. S. ; GENEROSO, J. S. ; "
+"AVELINE, P. E. D. V. ; DOMINGUINI, D. ; **ELIAS, S. G.** ; VILELA, M. C. ; "
+"QUEVEDO, J. ; TEIXEIRA, A. L."
+msgstr ""
+
+#: src/publications.md:221
+msgid ""
+"Inhibition of indoleamine 2,3-dioxygenase prevented cognitive impairment in "
+"adult Wistar rats subjected to pneumococcal meningitis"
+msgstr ""
+
+#: src/publications.md:225
+msgid ""
+"Translational Research, Volume 162, Issue 6, 2013, Pages 390-397, ISSN "
+"1931-5244."
+msgstr ""
+
+#: src/publications.md:227 src/publications.md:243 src/publications.md:259
+#: src/publications.md:275
+msgid "2013"
+msgstr ""
+
+#: src/publications.md:233
+msgid ""
+"BARICHELLO, T. ; GENEROSO, J. S. ; SIMÕES, L. R. ; **ELIAS, S. G.** ; "
+"TASHIRO, M. H. ; DOMINGUINI, D. ; COMIM, C. M. ; VILELA, M. C. ; TEIXEIRA, "
+"A. L. ; QUEVEDO, J."
+msgstr ""
+
+#: src/publications.md:237
+msgid ""
+"Pathophysiology of bacterial infection of the central nervous system and its "
+"putative role in the pathogenesis of behavioral changes"
+msgstr ""
+
+#: src/publications.md:241
+msgid ""
+"Braz J Psychiatry. 2013 Mar; 35(1):81-7. doi: 10.1016/j.rbp.2012.11.003. "
+"PMID: 23567606."
+msgstr ""
+
+#: src/publications.md:249
+msgid ""
+"BARICHELLO, T. ; GENEROSO, J. S. ; MILIOLI, G. ; **ELIAS, S. G.** ; "
+"TEIXEIRA, A. L."
+msgstr ""
+
+#: src/publications.md:253
+msgid "Pathophysiology of neonatal acute bacterial meningitis"
+msgstr ""
+
+#: src/publications.md:257
+msgid ""
+"J Med Microbiol. 2013 Dec; 62(Pt 12):1781-1789. doi: 10.1099/jmm.0.059840-0. "
+"Epub 2013 Aug 14. PMID: 23946474."
+msgstr ""
+
+#: src/publications.md:265
+msgid ""
+"BARICHELLO, T. ; FAGUNDES, G. D. ; GENEROSO, J. S. ; **ELIAS, S. G.** ; "
+"SIMÕES, L. R. ; TEIXEIRA, A. L."
+msgstr ""
+
+#: src/publications.md:269
+msgid ""
+"Role of oxidative stress in the pathophysiology of pneumococcal meningitis"
+msgstr ""
+
+#: src/publications.md:273
+msgid ""
+"Oxid Med Cell Longev. 2013; 2013:371465. doi: 10.1155/2013/371465. Epub 2013 "
+"May 9. PMID: 23766853; PMCID: PMC3665263."
+msgstr ""
+
+#: src/publications.md:281
+msgid ""
+"BARICHELLO, T. ; GENEROSO, J. S. ; SIMÕES, L. R. ; **ELIAS, S. G.** ; "
+"QUEVEDO, J."
+msgstr ""
