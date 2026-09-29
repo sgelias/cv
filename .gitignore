@@ -1,4 +1,6 @@
+book
+po/messages.pot
+
+# Restos do portal antigo (React/Vite)
 node_modules/
-src/output.css
-*.log
-dist
+dist/

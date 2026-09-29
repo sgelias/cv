@@ -1,77 +1,74 @@
 # Curriculum Vitae — Samuel Galvão Elias
 
-Personal CV built with React, TypeScript, Tailwind CSS and react-markdown.
-Supports a web mode (with cards and dark mode) and a print mode (clean layout
-for PDF/A4).
-
-## Stack
-
-- **React 18** + **TypeScript**
-- **Vite** — bundler and dev server
-- **Tailwind CSS v3** — utility-first styling
-- **react-markdown** + **remark-gfm** — Markdown rendering for text blocks
-- **GitHub Actions** — automated deployment to GitHub Pages
+Personal CV built with [mdBook](https://rust-lang.github.io/mdBook/), the same
+stack used by the [Mycelium documentation](https://github.com/LepistaBioinformatics/mycelium/tree/main/docs/book).
+English is the source language; the Portuguese (pt-BR) version is produced with
+[mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers) (gettext).
 
 ## Structure
 
 ```
+book.toml              # mdBook configuration
 src/
-├── App.tsx                  # Main layout, dark mode, cards
-├── main.tsx                 # Entry point
-├── index.css                # Tailwind directives + global styles + dark mode CSS
-├── vite-env.d.ts
-├── components/
-│   ├── Header.tsx           # Title, theme toggle and PDF button
-│   ├── ContactInfo.tsx      # Web grid / print data table
-│   ├── Summaries.tsx        # In Microbiology + And in Bioinformatics
-│   ├── Titration.tsx        # Academic qualifications
-│   ├── Publications.tsx     # Scientific publications
-│   ├── PublicTools.tsx      # Public domain software
-│   ├── PrivateSoftwares.tsx # Software registrations
-│   └── MarkdownBlock.tsx    # react-markdown wrapper
-└── content/
-    ├── summaries/
-    │   ├── in-microbiology.md
-    │   ├── and-in-bioinformatics.md
-    │   └── mentor-links.md
-    ├── titration/
-    │   ├── phd.md
-    │   ├── master.md
-    │   └── bachelor.md
-    ├── publications/
-    │   ├── intro.md
-    │   ├── life-sciences-intro.md
-    │   └── health-sciences-intro.md
-    └── software/
-        ├── public-tools-intro.md
-        └── private-softwares-intro.md
+├── SUMMARY.md         # Table of contents (one chapter per section)
+├── summaries.md       # Header, contact links and summaries (first printed page)
+├── public-software.md # Public domain software
+├── private-software.md# Software registrations
+├── titration.md       # Academic qualifications
+├── publications.md    # Scientific publications
+└── assets/            # Contact icons
+theme/
+├── custom.css         # Colors, contact grid, tables and print (A4) styles
+└── custom.js          # EN/PT switcher and light theme when printing
+po/
+└── pt-BR.po           # Portuguese translation
+```
+
+## Prerequisites
+
+```bash
+cargo install mdbook --version 0.5.2 --locked
+cargo install mdbook-i18n-helpers --version 0.4.0 --locked
 ```
 
 ## Development
 
 ```bash
-yarn install
-yarn dev
+mdbook serve --open                                   # English
+MDBOOK_BOOK__LANGUAGE=pt-BR mdbook serve -d /tmp/pt   # Portuguese
 ```
 
 ## Build
 
 ```bash
-yarn build     # outputs to dist/
-yarn preview   # serves the build locally
+mdbook build
+MDBOOK_BOOK__LANGUAGE=pt-BR mdbook build --dest-dir book/pt-BR
 ```
+
+## Updating the translation
+
+After editing any file under `src/`, regenerate the template and merge it into
+the Portuguese catalog, then fill the new or fuzzy `msgstr` entries:
+
+```bash
+MDBOOK_OUTPUT='{"xgettext": {}}' mdbook build -d po
+msgmerge --update po/pt-BR.po po/messages.pot
+```
+
+Entries left with an empty `msgstr` fall back to the English text.
 
 ## Deploy
 
-Deployment is handled automatically via GitHub Actions on every push to the
-`main` branch.
+Deployment is handled by GitHub Actions (`.github/workflows/deploy.yml`) on
+every push to `main`: the English version is published at the site root and the
+Portuguese version under `/pt-BR/`. Pull requests run the same build as a check,
+without deploying. mdBook and mdbook-i18n-helpers are pinned in the workflow's
+`env` block and cached between runs.
 
 To enable: **Settings → Pages → Source: GitHub Actions**.
 
-The final URL will be `https://<username>.github.io/<repository>/`.
-
 ## PDF
 
-In the browser, click **PDF** in the top-right corner. The document is rendered
-in light mode regardless of the current theme, and formatted for A4 via `@page`
-CSS.
+Click the printer icon in the top bar. mdBook opens `print.html` with every
+chapter, one per page; the document is always printed in the light theme and
+formatted for A4.

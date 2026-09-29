@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -11,8 +13,13 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: pages-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  MDBOOK_VERSION: 0.5.2
+  MDBOOK_I18N_HELPERS_VERSION: 0.4.0
+  TOOLS_ROOT: ${{ github.workspace }}/../mdbook-tools
 
 jobs:
   build:
@@ -20,22 +27,42 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Cache mdBook tools
+        id: tools-cache
+        uses: actions/cache@v4
         with:
-          node-version: '20'
-          cache: yarn
+          path: ${{ env.TOOLS_ROOT }}
+          key: mdbook-${{ env.MDBOOK_VERSION }}-i18n-${{ env.MDBOOK_I18N_HELPERS_VERSION }}-${{ runner.os }}
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
+      - name: Install mdBook and mdbook-i18n-helpers
+        if: steps.tools-cache.outputs.cache-hit != 'true'
+        run: |
+          cargo install mdbook --version "$MDBOOK_VERSION" --locked --root "$TOOLS_ROOT"
+          cargo install mdbook-i18n-helpers --version "$MDBOOK_I18N_HELPERS_VERSION" --locked --root "$TOOLS_ROOT"
 
-      - name: Build
-        run: yarn build
+      - name: Add tools to PATH
+        run: echo "$TOOLS_ROOT/bin" >> "$GITHUB_PATH"
+
+      - name: Build English version
+        run: mdbook build
+
+      - name: Build Portuguese (pt-BR) version
+        run: MDBOOK_BOOK__LANGUAGE=pt-BR mdbook build --dest-dir book/pt-BR
+
+      - name: Check both languages were built
+        run: |
+          test -f book/index.html
+          test -f book/print.html
+          test -f book/pt-BR/index.html
+          grep -q 'lang="pt-BR"' book/pt-BR/index.html
 
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
         with:
-          path: ./dist
+          path: ./book
 
   deploy:
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     environment:
