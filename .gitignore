@@ -1,2 +1,6 @@
 book
 po/messages.pot
+
+# Restos do portal antigo (React/Vite)
+node_modules/
+dist/
